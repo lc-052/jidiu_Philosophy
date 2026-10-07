@@ -1,0 +1,4148 @@
+[
+  {
+    "id": "q01",
+    "title": "电车正在驶来",
+    "scenario": "一辆失控电车将撞上五个人。您可以扳动开关，把它引向另一条轨道；那里有一个人。您会怎么做？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "电车难题比较救人后果与主动造成伤害的责任。开关版本不同于把人推下桥的版本：行为方式和把人当作手段的程度可能改变判断。",
+    "sourceType": "经典情境改写",
+    "source": "Philippa Foot（1967）；Judith Jarvis Thomson（1985）",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q01_0",
+        "text": "扳动开关",
+        "order": 0,
+        "weights": {
+          "Utilitarianism": 2,
+          "Deontology": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：扳动开关",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q01_1",
+        "text": "不扳动开关",
+        "order": 1,
+        "weights": {
+          "Utilitarianism": -1,
+          "Deontology": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：不扳动开关",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "kant",
+      "mill"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q02",
+    "title": "完美人生，要插电吗？",
+    "scenario": "一台机器能让您体验完美的一生。您不会察觉任何破绽，但所有经历都不真实。您愿意永久进入吗？",
+    "category": "幸福",
+    "difficulty": 1,
+    "background": "诺齐克的体验机器追问：快乐体验是否是人生唯一值得追求的东西？拒绝机器可能与行动、真实关系或成为某种人有关，并不意味着快乐不重要。",
+    "sourceType": "经典情境改写",
+    "source": "诺齐克《无政府、国家与乌托邦》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q02_0",
+        "text": "愿意进入",
+        "order": 0,
+        "weights": {
+          "Hedonism": 2,
+          "Existentialism": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意进入",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q02_1",
+        "text": "留在真实世界",
+        "order": 1,
+        "weights": {
+          "Hedonism": -1,
+          "Existentialism": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：留在真实世界",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "nozick",
+      "epicurus"
+    ],
+    "schoolIds": [
+      "Hedonism",
+      "Existentialism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q03",
+    "title": "船还是那条船吗？",
+    "scenario": "一条船的木板被逐块换掉，最后没有一块原来的木板。它还是同一条船吗？",
+    "category": "身份",
+    "difficulty": 2,
+    "background": "忒修斯之船区分材料、结构、功能与历史连续性。若旧木板又组装成船，哪一条算原船？不同的同一性标准可能互相冲突。",
+    "sourceType": "经典情境改写",
+    "source": "普鲁塔克《希腊罗马名人传·忒修斯》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q03_0",
+        "text": "还是，历史连续就够了",
+        "order": 0,
+        "weights": {
+          "Rationalism": 2,
+          "Empiricism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：还是，历史连续就够了",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q03_1",
+        "text": "不是，材料全变了",
+        "order": 1,
+        "weights": {
+          "Rationalism": -1,
+          "Empiricism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：不是，材料全变了",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q03_2",
+        "text": "要看我们为何使用这个名字",
+        "order": 2,
+        "weights": {
+          "Rationalism": 0,
+          "Empiricism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：要看我们为何使用这个名字",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Rationalism",
+        "title": "理性主义",
+        "content": "会检视概念和推理是否一致，询问某个结论能否从理由中成立。它也可能注意经验无法单独证明的部分。但不同理性主义者的主张并不相同；分析概念不是轻视生活经验，更不保证抽象论证就能消除所有处境差异。"
+      },
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "wittgenstein",
+      "aristotle"
+    ],
+    "schoolIds": [
+      "Rationalism",
+      "Empiricism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q04",
+    "title": "走出洞穴以后",
+    "scenario": "您发现一直熟悉的世界只是洞壁上的影子。外面的真实世界令人不适。您会留下探索，还是回去？",
+    "category": "真实",
+    "difficulty": 1,
+    "background": "柏拉图的洞穴寓言不仅区分表象与认识，也讨论教育带来的转变，以及走出洞穴的人是否有返回共同体的责任。这里是对寓言的情境改写。",
+    "sourceType": "经典情境改写",
+    "source": "柏拉图《理想国》第七卷",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q04_0",
+        "text": "出去继续探索",
+        "order": 0,
+        "weights": {
+          "Rationalism": 2,
+          "Skepticism": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：出去继续探索",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q04_1",
+        "text": "先回去照顾同伴",
+        "order": 1,
+        "weights": {
+          "Rationalism": -1,
+          "Skepticism": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：先回去照顾同伴",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q04_2",
+        "text": "暂时留在熟悉的地方",
+        "order": 2,
+        "weights": {
+          "Rationalism": 0,
+          "Skepticism": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：暂时留在熟悉的地方",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Rationalism",
+        "title": "理性主义",
+        "content": "会检视概念和推理是否一致，询问某个结论能否从理由中成立。它也可能注意经验无法单独证明的部分。但不同理性主义者的主张并不相同；分析概念不是轻视生活经验，更不保证抽象论证就能消除所有处境差异。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "plato"
+    ],
+    "schoolIds": [
+      "Rationalism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q05",
+    "title": "照说明书聊天，算懂吗？",
+    "scenario": "一个完全不懂中文的人，靠一本规则手册处理纸条，回答得像中文母语者。这个房间真的理解中文吗？",
+    "category": "意识",
+    "difficulty": 2,
+    "background": "塞尔的中文房间论证质疑：符号操作是否足以产生理解。系统回应认为整个系统可能理解，即使操作员不理解。这是争论，不是已证明机器永远不能思考。",
+    "sourceType": "经典情境改写",
+    "source": "John Searle（1980），Minds, Brains, and Programs",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q05_0",
+        "text": "可能理解，系统表现很重要",
+        "order": 0,
+        "weights": {
+          "Empiricism": 2,
+          "Rationalism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：可能理解，系统表现很重要",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q05_1",
+        "text": "未必理解，规则不等于意义",
+        "order": 1,
+        "weights": {
+          "Empiricism": -1,
+          "Rationalism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：未必理解，规则不等于意义",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q05_2",
+        "text": "暂时无法判断",
+        "order": 2,
+        "weights": {
+          "Empiricism": 0,
+          "Rationalism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：暂时无法判断",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "Rationalism",
+        "title": "理性主义",
+        "content": "会检视概念和推理是否一致，询问某个结论能否从理由中成立。它也可能注意经验无法单独证明的部分。但不同理性主义者的主张并不相同；分析概念不是轻视生活经验，更不保证抽象论证就能消除所有处境差异。"
+      },
+      {
+        "schoolId": "Skepticism",
+        "title": "怀疑主义",
+        "content": "会检查设定中哪些前提未经证明，以及每个选项有多强的理由。暂缓判断也可能是一种负责任的回应。但怀疑不等于拒绝所有证据；在实际行动无法暂停时，仍需要说明如何在不确定条件下作出可修正的决定。"
+      }
+    ],
+    "philosopherIds": [
+      "wittgenstein",
+      "descartes"
+    ],
+    "schoolIds": [
+      "Empiricism",
+      "Rationalism",
+      "Skepticism"
+    ]
+  },
+  {
+    "id": "q06",
+    "title": "如果只是缸中之脑",
+    "scenario": "假如一切体验都由电脑传入，您只是营养液里的大脑。仅靠现在的体验，您能排除这种可能吗？",
+    "category": "知识",
+    "difficulty": 2,
+    "background": "缸中之脑是现代怀疑论情境。普特南还用语义外在论讨论我们能否有意义地指称这个情境；它不只是一个证明外界虚假的故事。",
+    "sourceType": "经典情境改写",
+    "source": "Hilary Putnam《理性、真理与历史》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q06_0",
+        "text": "不能完全排除",
+        "order": 0,
+        "weights": {
+          "Skepticism": 2,
+          "Empiricism": -1,
+          "Rationalism": 1
+        },
+        "tendencies": [
+          "可能更在意：不能完全排除",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q06_1",
+        "text": "足够可靠的经验可以支持现实",
+        "order": 1,
+        "weights": {
+          "Skepticism": -1,
+          "Empiricism": 2,
+          "Rationalism": 1
+        },
+        "tendencies": [
+          "可能更在意：足够可靠的经验可以支持现实",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q06_2",
+        "text": "这个设想本身还需要论证",
+        "order": 2,
+        "weights": {
+          "Skepticism": 0,
+          "Empiricism": 1,
+          "Rationalism": 2
+        },
+        "tendencies": [
+          "可能更在意：这个设想本身还需要论证",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Skepticism",
+        "title": "怀疑主义",
+        "content": "会检查设定中哪些前提未经证明，以及每个选项有多强的理由。暂缓判断也可能是一种负责任的回应。但怀疑不等于拒绝所有证据；在实际行动无法暂停时，仍需要说明如何在不确定条件下作出可修正的决定。"
+      },
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "Rationalism",
+        "title": "理性主义",
+        "content": "会检视概念和推理是否一致，询问某个结论能否从理由中成立。它也可能注意经验无法单独证明的部分。但不同理性主义者的主张并不相同；分析概念不是轻视生活经验，更不保证抽象论证就能消除所有处境差异。"
+      }
+    ],
+    "philosopherIds": [
+      "descartes",
+      "hume"
+    ],
+    "schoolIds": [
+      "Skepticism",
+      "Empiricism",
+      "Rationalism"
+    ]
+  },
+  {
+    "id": "q07",
+    "title": "不知道自己会成为谁",
+    "scenario": "设计一个社会之前，您不知道自己将富有还是贫穷、健康还是患病。您更愿意选哪种规则？",
+    "category": "正义",
+    "difficulty": 1,
+    "background": "罗尔斯的无知之幕遮蔽社会位置等偶然信息，让制度选择更公平。它并非遗忘所有知识，也不是单纯要求所有人收入一样。",
+    "sourceType": "经典情境改写",
+    "source": "罗尔斯《正义论》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q07_0",
+        "text": "优先保障最不利者",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Utilitarianism": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：优先保障最不利者",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q07_1",
+        "text": "优先提高总体生活水平",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Utilitarianism": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：优先提高总体生活水平",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q07_2",
+        "text": "优先保证基本自由",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Utilitarianism": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：优先保证基本自由",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "rawls",
+      "nozick"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Utilitarianism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q08",
+    "title": "互相信任，还是先保护自己？",
+    "scenario": "您和另一人只能各自选择合作或背叛。双方合作较好，但单方背叛者获益最多；双方背叛都更差。这次不能沟通。",
+    "category": "社会",
+    "difficulty": 1,
+    "background": "一次性囚徒困境中，个体理性与共同利益可能冲突。重复博弈、沟通与制度安排会改变条件；不能据此断言人天生自私。",
+    "sourceType": "经典情境改写",
+    "source": "Albert Tucker（1950）的囚徒困境表述",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q08_0",
+        "text": "选择合作",
+        "order": 0,
+        "weights": {
+          "Collectivism": 2,
+          "Individualism": -1,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：选择合作",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q08_1",
+        "text": "选择背叛",
+        "order": 1,
+        "weights": {
+          "Collectivism": -1,
+          "Individualism": 2,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：选择背叛",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q08_2",
+        "text": "希望先改变游戏规则",
+        "order": 2,
+        "weights": {
+          "Collectivism": 0,
+          "Individualism": 1,
+          "Deontology": 2
+        },
+        "tendencies": [
+          "可能更在意：希望先改变游戏规则",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "hume",
+      "mill"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q09",
+    "title": "桥上的两难",
+    "scenario": "电车将撞上五人。唯一阻止它的方法是把桥上一位体型较大的人推下去，他会死亡。您会推吗？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "桥上版本常称胖子电车问题。与开关版本相比，这个人的死亡在计划中成了手段。其身体特征只是设定的一部分，不构成任何人的价值差别。",
+    "sourceType": "经典情境改写",
+    "source": "Judith Jarvis Thomson，The Trolley Problem（1985）",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q09_0",
+        "text": "会，尽量减少死亡",
+        "order": 0,
+        "weights": {
+          "Utilitarianism": 2,
+          "Deontology": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：会，尽量减少死亡",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q09_1",
+        "text": "不会，不能把人当作工具",
+        "order": 1,
+        "weights": {
+          "Utilitarianism": -1,
+          "Deontology": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：不会，不能把人当作工具",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "kant",
+      "mill"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q10",
+    "title": "传送后的我，还是我吗？",
+    "scenario": "传送机销毁您的身体，再在远方重建完全相同的身体和记忆。您愿意用它旅行吗？",
+    "category": "身份",
+    "difficulty": 2,
+    "background": "传送机悖论让身体连续与心理连续发生冲突。帕菲特借相关情境探讨：严格的同一性是否就是生存中最重要的东西。",
+    "sourceType": "经典情境改写",
+    "source": "Derek Parfit《理由与人格》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q10_0",
+        "text": "愿意，心理连续更重要",
+        "order": 0,
+        "weights": {
+          "Rationalism": 2,
+          "Empiricism": -1,
+          "Existentialism": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，心理连续更重要",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q10_1",
+        "text": "不愿意，我在意身体连续",
+        "order": 1,
+        "weights": {
+          "Rationalism": -1,
+          "Empiricism": 2,
+          "Existentialism": 1
+        },
+        "tendencies": [
+          "可能更在意：不愿意，我在意身体连续",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Rationalism",
+        "title": "理性主义",
+        "content": "会检视概念和推理是否一致，询问某个结论能否从理由中成立。它也可能注意经验无法单独证明的部分。但不同理性主义者的主张并不相同；分析概念不是轻视生活经验，更不保证抽象论证就能消除所有处境差异。"
+      },
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      }
+    ],
+    "philosopherIds": [
+      "descartes"
+    ],
+    "schoolIds": [
+      "Rationalism",
+      "Empiricism",
+      "Existentialism"
+    ]
+  },
+  {
+    "id": "q11",
+    "title": "多了一个完全一样的您",
+    "scenario": "一个复制人拥有您的全部记忆、性格和感情，但原来的您也还活着。谁更有资格继续原来的生活？",
+    "category": "身份",
+    "difficulty": 1,
+    "background": "复制情境让心理连续出现分支。定性相同不等于数值上同一；即使两人相似，权利与关系也不能自动简单分配。",
+    "sourceType": "原创情境",
+    "source": "人格同一性讨论的现代情境改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q11_0",
+        "text": "两个人都需要新的公平安排",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Individualism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：两个人都需要新的公平安排",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q11_1",
+        "text": "原来的我优先",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Individualism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：原来的我优先",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q11_2",
+        "text": "记忆相同也不是同一个人",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Individualism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：记忆相同也不是同一个人",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "rawls"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Existentialism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q12",
+    "title": "忘掉一切以后",
+    "scenario": "假如您失去全部旧记忆，性格也改变了。过去的承诺，还应该由今天的您承担吗？",
+    "category": "身份",
+    "difficulty": 1,
+    "background": "洛克以意识连续讨论人格同一性，但记忆标准面对遗忘、循环定义等问题。法律责任、道德责任和形而上的同一性并不完全相同。",
+    "sourceType": "经典情境改写",
+    "source": "John Locke《人类理解论》第二卷第27章",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q12_0",
+        "text": "承诺仍需要承担",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Existentialism": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：承诺仍需要承担",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q12_1",
+        "text": "应重新评估责任",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Existentialism": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：应重新评估责任",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q12_2",
+        "text": "先保障现在这个人的处境",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Existentialism": 1,
+          "VirtueEthics": 2
+        },
+        "tendencies": [
+          "可能更在意：先保障现在这个人的处境",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "hume",
+      "kant"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Existentialism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q13",
+    "title": "永生的邀请",
+    "scenario": "一种技术让您停止衰老，但仍可在未来自愿结束使用。您愿意接受吗？",
+    "category": "死亡",
+    "difficulty": 1,
+    "background": "永生讨论涉及欲望、身份变化和时间的价值。伯纳德·威廉斯曾质疑无尽生命是否可能保持吸引力；这里保留了退出条件，与被迫永生不同。",
+    "sourceType": "经典情境改写",
+    "source": "Bernard Williams，The Makropulos Case（1973），情境改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q13_0",
+        "text": "愿意，未来还有很多事",
+        "order": 0,
+        "weights": {
+          "Hedonism": 2,
+          "Existentialism": -1,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，未来还有很多事",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q13_1",
+        "text": "不愿意，有限本身有价值",
+        "order": 1,
+        "weights": {
+          "Hedonism": -1,
+          "Existentialism": 2,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：不愿意，有限本身有价值",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q13_2",
+        "text": "愿意先试一段时间",
+        "order": 2,
+        "weights": {
+          "Hedonism": 0,
+          "Existentialism": 1,
+          "Stoicism": 2
+        },
+        "tendencies": [
+          "可能更在意：愿意先试一段时间",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Stoicism",
+        "title": "斯多葛主义",
+        "content": "会先区分哪些判断和行动由您负责，哪些条件不在控制之内。它重视德性与对他人的责任，而不是把感觉压下去。这个角度可能提醒您：在有限条件中检视理由，选择能够认真承担的行动，同时承认外部结果未必如愿。"
+      }
+    ],
+    "philosopherIds": [
+      "epicurus",
+      "camus"
+    ],
+    "schoolIds": [
+      "Hedonism",
+      "Existentialism",
+      "Stoicism"
+    ]
+  },
+  {
+    "id": "q14",
+    "title": "没有人记得您的成就",
+    "scenario": "您做了一件很有价值的事，但后来所有人都会忘记是您做的。您还愿意做吗？",
+    "category": "人生意义",
+    "difficulty": 1,
+    "background": "被认可、产生影响与行动本身的价值可能不同。儒家的修养和亚里士多德的德性讨论，都不能简单缩成追求外部名声。",
+    "sourceType": "原创情境",
+    "source": "原创情境：德性、承认与意义",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q14_0",
+        "text": "愿意，价值仍然存在",
+        "order": 0,
+        "weights": {
+          "VirtueEthics": 2,
+          "Individualism": -1,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，价值仍然存在",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q14_1",
+        "text": "会犹豫，我也希望被看见",
+        "order": 1,
+        "weights": {
+          "VirtueEthics": -1,
+          "Individualism": 2,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：会犹豫，我也希望被看见",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "aristotle",
+      "confucius"
+    ],
+    "schoolIds": [
+      "VirtueEthics",
+      "Existentialism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q15",
+    "title": "快乐的误会",
+    "scenario": "您误以为朋友一直支持自己，这让您很快乐。真相是朋友在敷衍。您希望知道吗？",
+    "category": "真实",
+    "difficulty": 1,
+    "background": "真实关系是否比愉快感受更重要？知道真相也可能给行动带来新的空间；追求真实不等于必须立即暴露每一件事。",
+    "sourceType": "原创情境",
+    "source": "原创情境：快乐、真实性与关系",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q15_0",
+        "text": "希望知道真相",
+        "order": 0,
+        "weights": {
+          "Existentialism": 2,
+          "Hedonism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：希望知道真相",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q15_1",
+        "text": "暂时保留这份快乐",
+        "order": 1,
+        "weights": {
+          "Existentialism": -1,
+          "Hedonism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：暂时保留这份快乐",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "nozick",
+      "epicurus"
+    ],
+    "schoolIds": [
+      "Existentialism",
+      "Hedonism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q16",
+    "title": "更安全，也更被看见",
+    "scenario": "一项全面监控能降低犯罪，但也记录每个人的日常活动。您愿意接受吗？",
+    "category": "社会",
+    "difficulty": 1,
+    "background": "安全和自由不是只能二选一。伤害原则、权利与公共利益之间的讨论，也涉及谁监督监控者以及如何保护弱势群体。",
+    "sourceType": "原创情境",
+    "source": "原创情境：密尔《论自由》及权利讨论",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q16_0",
+        "text": "愿意，但必须有监督和限制",
+        "order": 0,
+        "weights": {
+          "Collectivism": 2,
+          "Individualism": -1,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，但必须有监督和限制",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q16_1",
+        "text": "不愿意，隐私是重要边界",
+        "order": 1,
+        "weights": {
+          "Collectivism": -1,
+          "Individualism": 2,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：不愿意，隐私是重要边界",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q16_2",
+        "text": "先寻找侵入性更低的办法",
+        "order": 2,
+        "weights": {
+          "Collectivism": 0,
+          "Individualism": 1,
+          "Deontology": 2
+        },
+        "tendencies": [
+          "可能更在意：先寻找侵入性更低的办法",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      }
+    ],
+    "philosopherIds": [
+      "mill",
+      "nozick"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "Individualism"
+    ]
+  },
+  {
+    "id": "q17",
+    "title": "永远都应该说真话吗？",
+    "scenario": "朋友问您一个问题。真话会带来伤害，隐瞒又会削弱信任。您会怎么做？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "诚实的义务与避免伤害可能冲突。康德对说谎持严格立场；其他义务论者会讨论义务冲突，德性伦理则重视实践判断。",
+    "sourceType": "经典情境改写",
+    "source": "康德《关于出于人类之爱而说谎的所谓权利》，现代改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q17_0",
+        "text": "尽量诚实，但注意方式",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Utilitarianism": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：尽量诚实，但注意方式",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q17_1",
+        "text": "为避免伤害可以隐瞒",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Utilitarianism": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：为避免伤害可以隐瞒",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q17_2",
+        "text": "先弄清对方真正需要什么",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Utilitarianism": 1,
+          "VirtueEthics": 2
+        },
+        "tendencies": [
+          "可能更在意：先弄清对方真正需要什么",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "kant",
+      "confucius"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "VirtueEthics",
+      "ru"
+    ]
+  },
+  {
+    "id": "q18",
+    "title": "为了多数人的快乐",
+    "scenario": "一个社会的繁荣建立在一位无辜者持续受苦之上，没有别的办法维持它。您会接受吗？",
+    "category": "正义",
+    "difficulty": 1,
+    "background": "勒古恩的奥梅拉斯故事让繁荣与无辜者的痛苦并置。它不是功利主义的定论，而是邀请读者检验对整体幸福的理解。",
+    "sourceType": "经典情境改写",
+    "source": "Ursula K. Le Guin，The Ones Who Walk Away from Omelas（1973）",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q18_0",
+        "text": "不能接受这种制度",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Utilitarianism": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：不能接受这种制度",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q18_1",
+        "text": "会先寻找替代方案",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Utilitarianism": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：会先寻找替代方案",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q18_2",
+        "text": "在设定中选择保住多数人福祉",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Utilitarianism": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：在设定中选择保住多数人福祉",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "rawls",
+      "kant"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Utilitarianism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q19",
+    "title": "人生一定要有大意义吗？",
+    "scenario": "一生没有宏大目标，却有朋友、散步、认真做饭和小小的快乐。这样的生活足够好吗？",
+    "category": "人生意义",
+    "difficulty": 1,
+    "background": "人生意义可以来自目标、关系、活动或对世界的回应。加缪讨论没有终极保证的生活；庄子的逍遥也提醒我们检视单一成功尺度。",
+    "sourceType": "原创情境",
+    "source": "原创情境：加缪《西西弗神话》；《庄子·逍遥游》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q19_0",
+        "text": "足够，日常也值得",
+        "order": 0,
+        "weights": {
+          "Absurdism": 2,
+          "Existentialism": -1,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：足够，日常也值得",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q19_1",
+        "text": "我仍想有更大的方向",
+        "order": 1,
+        "weights": {
+          "Absurdism": -1,
+          "Existentialism": 2,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：我仍想有更大的方向",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Absurdism",
+        "title": "荒诞主义",
+        "content": "会承认我们渴望清晰答案，世界却未必提供最终保证。加缪式的思路可能鼓励清醒地继续生活和行动，同时为伤害他人设限。没有终极答案不意味着每种做法都一样，也不意味着必须放弃关系、责任和眼前可做的事。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "camus",
+      "zhuangzi"
+    ],
+    "schoolIds": [
+      "Absurdism",
+      "Existentialism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q20",
+    "title": "选择早就被决定了吗？",
+    "scenario": "假如您的行动都受到基因、经历与自然规律的因果影响，您还认为自己有自由吗？",
+    "category": "自由意志",
+    "difficulty": 2,
+    "background": "决定论是否排除自由存在分歧。相容论认为自由可能与因果决定共存；不相容论则要求更强的条件。因果影响本身还不等于证明决定论。",
+    "sourceType": "原创情境",
+    "source": "自由意志：相容论与不相容论的情境改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q20_0",
+        "text": "仍有，按自己的理由行动也是自由",
+        "order": 0,
+        "weights": {
+          "Rationalism": 2,
+          "Existentialism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：仍有，按自己的理由行动也是自由",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q20_1",
+        "text": "没有，真正自由需要其他可能",
+        "order": 1,
+        "weights": {
+          "Rationalism": -1,
+          "Existentialism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：没有，真正自由需要其他可能",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q20_2",
+        "text": "需要区分不同含义的自由",
+        "order": 2,
+        "weights": {
+          "Rationalism": 0,
+          "Existentialism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：需要区分不同含义的自由",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Rationalism",
+        "title": "理性主义",
+        "content": "会检视概念和推理是否一致，询问某个结论能否从理由中成立。它也可能注意经验无法单独证明的部分。但不同理性主义者的主张并不相同；分析概念不是轻视生活经验，更不保证抽象论证就能消除所有处境差异。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Skepticism",
+        "title": "怀疑主义",
+        "content": "会检查设定中哪些前提未经证明，以及每个选项有多强的理由。暂缓判断也可能是一种负责任的回应。但怀疑不等于拒绝所有证据；在实际行动无法暂停时，仍需要说明如何在不确定条件下作出可修正的决定。"
+      }
+    ],
+    "philosopherIds": [
+      "hume",
+      "sartre"
+    ],
+    "schoolIds": [
+      "Rationalism",
+      "Existentialism",
+      "Skepticism"
+    ]
+  },
+  {
+    "id": "q21",
+    "title": "AI 说它有感觉",
+    "scenario": "一个 AI 持续声称自己会痛苦、会期待明天。您会认为它可能有意识吗？",
+    "category": "意识",
+    "difficulty": 1,
+    "background": "行为表现、计算结构和主观体验之间的关系仍有争论。中文房间主要讨论理解，不能直接当成所有意识问题的最终答案。",
+    "sourceType": "原创情境",
+    "source": "原创情境：意识与人工智能哲学",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q21_0",
+        "text": "可能，不能只凭材料排除",
+        "order": 0,
+        "weights": {
+          "Empiricism": 2,
+          "Skepticism": -1,
+          "Rationalism": 1
+        },
+        "tendencies": [
+          "可能更在意：可能，不能只凭材料排除",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q21_1",
+        "text": "还不足以判断",
+        "order": 1,
+        "weights": {
+          "Empiricism": -1,
+          "Skepticism": 2,
+          "Rationalism": 1
+        },
+        "tendencies": [
+          "可能更在意：还不足以判断",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q21_2",
+        "text": "目前更倾向没有",
+        "order": 2,
+        "weights": {
+          "Empiricism": 0,
+          "Skepticism": 1,
+          "Rationalism": 2
+        },
+        "tendencies": [
+          "可能更在意：目前更倾向没有",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "Skepticism",
+        "title": "怀疑主义",
+        "content": "会检查设定中哪些前提未经证明，以及每个选项有多强的理由。暂缓判断也可能是一种负责任的回应。但怀疑不等于拒绝所有证据；在实际行动无法暂停时，仍需要说明如何在不确定条件下作出可修正的决定。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      }
+    ],
+    "philosopherIds": [
+      "wittgenstein",
+      "descartes"
+    ],
+    "schoolIds": [
+      "Empiricism",
+      "Skepticism",
+      "Deontology"
+    ]
+  },
+  {
+    "id": "q22",
+    "title": "完美安排的人生",
+    "scenario": "一个系统能安排每个人最适合的工作和伴侣，让社会更幸福，但个人不能拒绝。您愿意生活在其中吗？",
+    "category": "自由意志",
+    "difficulty": 1,
+    "background": "选择的价值是否独立于好结果？共同体的秩序也需要正当性。无为而治的讨论不能简单等同于现代自由主义，但同样能追问过度干预。",
+    "sourceType": "原创情境",
+    "source": "原创情境：自主与治理",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q22_0",
+        "text": "不愿意，拒绝的权利很重要",
+        "order": 0,
+        "weights": {
+          "Individualism": 2,
+          "Utilitarianism": -1,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：不愿意，拒绝的权利很重要",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q22_1",
+        "text": "愿意，只要整体福祉确实更好",
+        "order": 1,
+        "weights": {
+          "Individualism": -1,
+          "Utilitarianism": 2,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，只要整体福祉确实更好",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q22_2",
+        "text": "只接受可以退出的安排",
+        "order": 2,
+        "weights": {
+          "Individualism": 0,
+          "Utilitarianism": 1,
+          "Deontology": 2
+        },
+        "tendencies": [
+          "可能更在意：只接受可以退出的安排",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "mill",
+      "laozi"
+    ],
+    "schoolIds": [
+      "Individualism",
+      "Utilitarianism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q23",
+    "title": "钱多一点，就更幸福吗？",
+    "scenario": "您的收入已经足够安稳生活。更高薪水需要牺牲大部分自由时间。您会接受吗？",
+    "category": "幸福",
+    "difficulty": 1,
+    "background": "财富可以带来安全与选择，却未必自动等于善好生活。伊壁鸠鲁区分欲望，亚里士多德区分外部条件与幸福活动。",
+    "sourceType": "原创情境",
+    "source": "原创情境：欲望、闲暇与幸福",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q23_0",
+        "text": "接受，我有需要完成的目标",
+        "order": 0,
+        "weights": {
+          "Individualism": 2,
+          "Hedonism": -1,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：接受，我有需要完成的目标",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q23_1",
+        "text": "不接受，我更珍惜生活时间",
+        "order": 1,
+        "weights": {
+          "Individualism": -1,
+          "Hedonism": 2,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：不接受，我更珍惜生活时间",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q23_2",
+        "text": "试着谈一个折中方案",
+        "order": 2,
+        "weights": {
+          "Individualism": 0,
+          "Hedonism": 1,
+          "Stoicism": 2
+        },
+        "tendencies": [
+          "可能更在意：试着谈一个折中方案",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "epicurus",
+      "aristotle"
+    ],
+    "schoolIds": [
+      "Hedonism",
+      "VirtueEthics",
+      "dao"
+    ]
+  },
+  {
+    "id": "q24",
+    "title": "原谅一定是好事吗？",
+    "scenario": "一个伤害过您的人真诚道歉。您是否认为自己有义务原谅？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "原谅不等于忘记、和解或免除责任。受伤害者的安全与自主不可被一句应该宽容替代；修复行动也影响判断。",
+    "sourceType": "原创情境",
+    "source": "原创情境：原谅、责任与关系",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q24_0",
+        "text": "可以原谅，但保留边界",
+        "order": 0,
+        "weights": {
+          "VirtueEthics": 2,
+          "Individualism": -1,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：可以原谅，但保留边界",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q24_1",
+        "text": "没有义务，是否原谅由我决定",
+        "order": 1,
+        "weights": {
+          "VirtueEthics": -1,
+          "Individualism": 2,
+          "Deontology": 1
+        },
+        "tendencies": [
+          "可能更在意：没有义务，是否原谅由我决定",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q24_2",
+        "text": "先看是否承担了修复责任",
+        "order": 2,
+        "weights": {
+          "VirtueEthics": 0,
+          "Individualism": 1,
+          "Deontology": 2
+        },
+        "tendencies": [
+          "可能更在意：先看是否承担了修复责任",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "confucius",
+      "kant"
+    ],
+    "schoolIds": [
+      "VirtueEthics",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q25",
+    "title": "有限，才值得吗？",
+    "scenario": "如果生命不再有明确的终点，您觉得今天的生活会失去意义吗？",
+    "category": "死亡",
+    "difficulty": 1,
+    "background": "死亡是否赋予生命意义并无共识。有限性可能带来紧迫感，但从不意味着失去生命值得赞美；意义也可能依赖活着时的活动和关系。",
+    "sourceType": "原创情境",
+    "source": "原创情境：有限性与意义",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q25_0",
+        "text": "可能，有限让我认真选择",
+        "order": 0,
+        "weights": {
+          "Existentialism": 2,
+          "Hedonism": -1,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：可能，有限让我认真选择",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q25_1",
+        "text": "不会，关系和活动仍然有价值",
+        "order": 1,
+        "weights": {
+          "Existentialism": -1,
+          "Hedonism": 2,
+          "Stoicism": 1
+        },
+        "tendencies": [
+          "可能更在意：不会，关系和活动仍然有价值",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Stoicism",
+        "title": "斯多葛主义",
+        "content": "会先区分哪些判断和行动由您负责，哪些条件不在控制之内。它重视德性与对他人的责任，而不是把感觉压下去。这个角度可能提醒您：在有限条件中检视理由，选择能够认真承担的行动，同时承认外部结果未必如愿。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "kierkegaard",
+      "epicurus"
+    ],
+    "schoolIds": [
+      "Existentialism",
+      "Stoicism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q26",
+    "title": "道德需要宗教吗？",
+    "scenario": "没有宗教信仰的人，仍然能给出充分的道德理由吗？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "道德与宗教既有联系，也可区分。柏拉图的尤西弗罗问题追问善与神意的关系；承认世俗理由不等于贬低宗教生活。",
+    "sourceType": "经典情境改写",
+    "source": "柏拉图《尤西弗罗篇》，现代改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q26_0",
+        "text": "能，关系、理性和伤害都可成为理由",
+        "order": 0,
+        "weights": {
+          "Rationalism": 2,
+          "Deontology": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：能，关系、理性和伤害都可成为理由",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q26_1",
+        "text": "宗教为我提供了重要基础",
+        "order": 1,
+        "weights": {
+          "Rationalism": -1,
+          "Deontology": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：宗教为我提供了重要基础",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q26_2",
+        "text": "不同人可能有不同的理由来源",
+        "order": 2,
+        "weights": {
+          "Rationalism": 0,
+          "Deontology": 1,
+          "VirtueEthics": 2
+        },
+        "tendencies": [
+          "可能更在意：不同人可能有不同的理由来源",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "socrates",
+      "kant",
+      "mencius"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "VirtueEthics",
+      "ru"
+    ]
+  },
+  {
+    "id": "q27",
+    "title": "大家都这么想",
+    "scenario": "几乎所有人都说某个观点正确，但您还没有看到证据。您会相信吗？",
+    "category": "知识",
+    "difficulty": 1,
+    "background": "社会证言能支持知识，但多数赞成不是逻辑证明。专业共识、信息独立性与群体偏差需要区别讨论。",
+    "sourceType": "原创情境",
+    "source": "原创情境：证言与认识责任",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q27_0",
+        "text": "暂缓判断，先看理由",
+        "order": 0,
+        "weights": {
+          "Skepticism": 2,
+          "Collectivism": -1,
+          "Empiricism": 1
+        },
+        "tendencies": [
+          "可能更在意：暂缓判断，先看理由",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q27_1",
+        "text": "多数共识是一个参考",
+        "order": 1,
+        "weights": {
+          "Skepticism": -1,
+          "Collectivism": 2,
+          "Empiricism": 1
+        },
+        "tendencies": [
+          "可能更在意：多数共识是一个参考",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q27_2",
+        "text": "先相信，再保持修正的可能",
+        "order": 2,
+        "weights": {
+          "Skepticism": 0,
+          "Collectivism": 1,
+          "Empiricism": 2
+        },
+        "tendencies": [
+          "可能更在意：先相信，再保持修正的可能",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Skepticism",
+        "title": "怀疑主义",
+        "content": "会检查设定中哪些前提未经证明，以及每个选项有多强的理由。暂缓判断也可能是一种负责任的回应。但怀疑不等于拒绝所有证据；在实际行动无法暂停时，仍需要说明如何在不确定条件下作出可修正的决定。"
+      },
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "hume",
+      "socrates"
+    ],
+    "schoolIds": [
+      "Skepticism",
+      "Empiricism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q28",
+    "title": "好心办坏事",
+    "scenario": "有人怀着善意帮助别人，却因疏忽造成严重伤害。评价这个行动，您更看重什么？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "道德评价可区分动机、行动准则、结果与责任。康德强调善意志，不等于疏忽不需要负责；后果论也会讨论信息与可预见性。",
+    "sourceType": "原创情境",
+    "source": "原创情境：动机与后果",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q28_0",
+        "text": "实际后果与可预见性",
+        "order": 0,
+        "weights": {
+          "Utilitarianism": 2,
+          "Deontology": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：实际后果与可预见性",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q28_1",
+        "text": "动机和行动原则",
+        "order": 1,
+        "weights": {
+          "Utilitarianism": -1,
+          "Deontology": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：动机和行动原则",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q28_2",
+        "text": "两者都要，还要看是否尽责",
+        "order": 2,
+        "weights": {
+          "Utilitarianism": 0,
+          "Deontology": 1,
+          "VirtueEthics": 2
+        },
+        "tendencies": [
+          "可能更在意：两者都要，还要看是否尽责",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      }
+    ],
+    "philosopherIds": [
+      "kant",
+      "mill"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "VirtueEthics"
+    ]
+  },
+  {
+    "id": "q29",
+    "title": "路过的求助",
+    "scenario": "您能付出很小的代价帮助一个陌生人避免重大损失。您觉得自己有义务帮忙吗？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "辛格的救助论证讨论：若无需牺牲同等重要的东西，是否应防止坏事发生？范围、可持续性与制度责任也是争议所在。",
+    "sourceType": "经典情境改写",
+    "source": "Peter Singer，Famine, Affluence, and Morality（1972），改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q29_0",
+        "text": "有，代价很小而帮助很大",
+        "order": 0,
+        "weights": {
+          "Utilitarianism": 2,
+          "Individualism": -1,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：有，代价很小而帮助很大",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q29_1",
+        "text": "值得做，但不一定是义务",
+        "order": 1,
+        "weights": {
+          "Utilitarianism": -1,
+          "Individualism": 2,
+          "VirtueEthics": 1
+        },
+        "tendencies": [
+          "可能更在意：值得做，但不一定是义务",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q29_2",
+        "text": "先确认求助与能力范围",
+        "order": 2,
+        "weights": {
+          "Utilitarianism": 0,
+          "Individualism": 1,
+          "VirtueEthics": 2
+        },
+        "tendencies": [
+          "可能更在意：先确认求助与能力范围",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "mencius",
+      "mill"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q30",
+    "title": "删掉一段痛苦记忆",
+    "scenario": "一种技术可以安全地删除一段痛苦记忆，但也会失去与它相关的学习和关系。您会用吗？",
+    "category": "身份",
+    "difficulty": 1,
+    "background": "记忆、叙事与人格相关，但痛苦不是成长的必需证明。技术设定只是思想实验；真实创伤处理不应由抽象选择替代。",
+    "sourceType": "原创情境",
+    "source": "原创情境：记忆与自主",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q30_0",
+        "text": "愿意，减轻痛苦很重要",
+        "order": 0,
+        "weights": {
+          "Hedonism": 2,
+          "Existentialism": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，减轻痛苦很重要",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q30_1",
+        "text": "不愿意，它也是我的经历",
+        "order": 1,
+        "weights": {
+          "Hedonism": -1,
+          "Existentialism": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：不愿意，它也是我的经历",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q30_2",
+        "text": "先考虑影响，再决定",
+        "order": 2,
+        "weights": {
+          "Hedonism": 0,
+          "Existentialism": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：先考虑影响，再决定",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      }
+    ],
+    "philosopherIds": [
+      "hume",
+      "nozick"
+    ],
+    "schoolIds": [
+      "Hedonism",
+      "Existentialism",
+      "Deontology"
+    ]
+  },
+  {
+    "id": "q31",
+    "title": "提前知道最后一天",
+    "scenario": "如果可以知道自己准确的死亡日期，且无法改变它，您会选择知道吗？",
+    "category": "死亡",
+    "difficulty": 1,
+    "background": "知道未来可能帮助安排生活，也可能让日期支配当下。斯多葛传统重视有限性与判断，但并不要求每个人必须知道未来。",
+    "sourceType": "原创情境",
+    "source": "原创情境：时间与有限性",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q31_0",
+        "text": "会，我想知道",
+        "order": 0,
+        "weights": {
+          "Rationalism": 2,
+          "Stoicism": -1,
+          "Existentialism": 1
+        },
+        "tendencies": [
+          "可能更在意：会，我想知道",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q31_1",
+        "text": "算了，还是不知道了",
+        "order": 1,
+        "weights": {
+          "Rationalism": -1,
+          "Stoicism": 2,
+          "Existentialism": 1
+        },
+        "tendencies": [
+          "可能更在意：算了，还是不知道了",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Stoicism",
+        "title": "斯多葛主义",
+        "content": "会先区分哪些判断和行动由您负责，哪些条件不在控制之内。它重视德性与对他人的责任，而不是把感觉压下去。这个角度可能提醒您：在有限条件中检视理由，选择能够认真承担的行动，同时承认外部结果未必如愿。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "marcus",
+      "epicurus"
+    ],
+    "schoolIds": [
+      "Stoicism",
+      "Existentialism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q32",
+    "title": "最后一块蛋糕",
+    "scenario": "桌上剩一块蛋糕，您和朋友都想吃。怎样分才合适？",
+    "category": "正义",
+    "difficulty": 1,
+    "background": "平等份额、需求与程序公平可能导向不同分法。小事也能揭示我们如何理解公平，且规则可以通过协商改变。",
+    "sourceType": "原创情境",
+    "source": "原创情境：分配正义",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q32_0",
+        "text": "平分",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Utilitarianism": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：平分",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q32_1",
+        "text": "给更想吃的人",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Utilitarianism": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：给更想吃的人",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q32_2",
+        "text": "轮流决定或一起商量",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Utilitarianism": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：轮流决定或一起商量",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "rawls",
+      "confucius"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Utilitarianism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q33",
+    "title": "猫喜欢您，还是饭？",
+    "scenario": "一只猫每天在饭点亲近您。即使这种亲近与食物有关，您还觉得关系是真的吗？",
+    "category": "幸福",
+    "difficulty": 1,
+    "background": "关系不必因为有原因就失去价值。休谟重视情感与习惯，德性伦理则让我们思考照顾和共同生活如何形成关系。",
+    "sourceType": "原创情境",
+    "source": "原创情境：情感与关系",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q33_0",
+        "text": "是真的，关系可以有多种原因",
+        "order": 0,
+        "weights": {
+          "Empiricism": 2,
+          "Existentialism": -1,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：是真的，关系可以有多种原因",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q33_1",
+        "text": "有点失落，我想被独特地在意",
+        "order": 1,
+        "weights": {
+          "Empiricism": -1,
+          "Existentialism": 2,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：有点失落，我想被独特地在意",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q33_2",
+        "text": "无需给这份亲近下定论",
+        "order": 2,
+        "weights": {
+          "Empiricism": 0,
+          "Existentialism": 1,
+          "Hedonism": 2
+        },
+        "tendencies": [
+          "可能更在意：无需给这份亲近下定论",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "hume",
+      "aristotle"
+    ],
+    "schoolIds": [
+      "Empiricism",
+      "VirtueEthics",
+      "dao"
+    ]
+  },
+  {
+    "id": "q34",
+    "title": "喜欢的歌，原来是 AI 写的",
+    "scenario": "您很喜欢一首歌，后来知道它完全由 AI 生成。您会改变评价吗？",
+    "category": "科技",
+    "difficulty": 1,
+    "background": "审美经验、创作意图与作品出处可以分别评价。技术改变作品来源，不自动给出它有没有价值的结论。",
+    "sourceType": "原创情境",
+    "source": "原创情境：艺术与作者",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q34_0",
+        "text": "不会，体验本身很重要",
+        "order": 0,
+        "weights": {
+          "Empiricism": 2,
+          "Existentialism": -1,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：不会，体验本身很重要",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q34_1",
+        "text": "会，我在意创作者的经历",
+        "order": 1,
+        "weights": {
+          "Empiricism": -1,
+          "Existentialism": 2,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：会，我在意创作者的经历",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q34_2",
+        "text": "作品价值和创作过程分开看",
+        "order": 2,
+        "weights": {
+          "Empiricism": 0,
+          "Existentialism": 1,
+          "Hedonism": 2
+        },
+        "tendencies": [
+          "可能更在意：作品价值和创作过程分开看",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "wittgenstein",
+      "schopenhauer"
+    ],
+    "schoolIds": [
+      "Empiricism",
+      "Existentialism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q35",
+    "title": "没人看的善举",
+    "scenario": "捡起路上的垃圾，没有人看见，也没有任何奖励。您还会做吗？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "善行可以从后果、习惯或责任得到不同理由。孔子的修养并非表演给他人看，亚里士多德也重视长期形成的行动习惯。",
+    "sourceType": "原创情境",
+    "source": "原创情境：习惯与公共空间",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q35_0",
+        "text": "会，环境确实变好了",
+        "order": 0,
+        "weights": {
+          "Utilitarianism": 2,
+          "VirtueEthics": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：会，环境确实变好了",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q35_1",
+        "text": "会，这是我想养成的习惯",
+        "order": 1,
+        "weights": {
+          "Utilitarianism": -1,
+          "VirtueEthics": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：会，这是我想养成的习惯",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q35_2",
+        "text": "看当时有没有精力",
+        "order": 2,
+        "weights": {
+          "Utilitarianism": 0,
+          "VirtueEthics": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：看当时有没有精力",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "confucius",
+      "aristotle"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "VirtueEthics",
+      "ru"
+    ]
+  },
+  {
+    "id": "q36",
+    "title": "有用才值得吗？",
+    "scenario": "您学了一项没法赚钱、也没法提升效率的小技能，只因为喜欢。这算浪费时间吗？",
+    "category": "人生意义",
+    "difficulty": 1,
+    "background": "庄子对无用之用的讨论松动了单一工具尺度。它并不要求否认责任，而是让我们看到价值未必只等于外部效率。",
+    "sourceType": "经典情境改写",
+    "source": "《庄子·逍遥游》，现代改写",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q36_0",
+        "text": "不算，喜欢本身就是理由",
+        "order": 0,
+        "weights": {
+          "Existentialism": 2,
+          "Hedonism": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：不算，喜欢本身就是理由",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q36_1",
+        "text": "要看会不会挤占重要责任",
+        "order": 1,
+        "weights": {
+          "Existentialism": -1,
+          "Hedonism": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：要看会不会挤占重要责任",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q36_2",
+        "text": "我希望它至少有些用途",
+        "order": 2,
+        "weights": {
+          "Existentialism": 0,
+          "Hedonism": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：我希望它至少有些用途",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      }
+    ],
+    "philosopherIds": [
+      "zhuangzi",
+      "aristotle"
+    ],
+    "schoolIds": [
+      "dao",
+      "VirtueEthics",
+      "Existentialism"
+    ]
+  },
+  {
+    "id": "q37",
+    "title": "计划外的一天",
+    "scenario": "所有计划突然取消，您得到完整的一天空闲。您会先做什么？",
+    "category": "幸福",
+    "difficulty": 1,
+    "background": "自主安排、顺应情境与关系责任都是可辩护的生活方式。选择反映当下处境，不能据此给人贴勤奋或懒惰的标签。",
+    "sourceType": "原创情境",
+    "source": "原创情境：闲暇与生活方式",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q37_0",
+        "text": "安排一件想做的事",
+        "order": 0,
+        "weights": {
+          "Individualism": 2,
+          "Hedonism": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：安排一件想做的事",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q37_1",
+        "text": "不安排，随便走走",
+        "order": 1,
+        "weights": {
+          "Individualism": -1,
+          "Hedonism": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：不安排，随便走走",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q37_2",
+        "text": "看看身边的人需要什么",
+        "order": 2,
+        "weights": {
+          "Individualism": 0,
+          "Hedonism": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：看看身边的人需要什么",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      },
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "laozi",
+      "epicurus"
+    ],
+    "schoolIds": [
+      "dao",
+      "Hedonism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q38",
+    "title": "朋友的品味很怪",
+    "scenario": "朋友喜欢您完全无法理解的艺术。您会认为他的品味更差吗？",
+    "category": "知识",
+    "difficulty": 1,
+    "background": "审美判断既有主观体验，也可能涉及可讨论的理由。维特根斯坦关于使用与生活形式的思路提醒我们，评价要看实际语境。",
+    "sourceType": "原创情境",
+    "source": "原创情境：审美理由与语境",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q38_0",
+        "text": "不会，标准可能不同",
+        "order": 0,
+        "weights": {
+          "Skepticism": 2,
+          "Rationalism": -1,
+          "Empiricism": 1
+        },
+        "tendencies": [
+          "可能更在意：不会，标准可能不同",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q38_1",
+        "text": "某些标准仍然可以讨论",
+        "order": 1,
+        "weights": {
+          "Skepticism": -1,
+          "Rationalism": 2,
+          "Empiricism": 1
+        },
+        "tendencies": [
+          "可能更在意：某些标准仍然可以讨论",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q38_2",
+        "text": "先让他解释为什么喜欢",
+        "order": 2,
+        "weights": {
+          "Skepticism": 0,
+          "Rationalism": 1,
+          "Empiricism": 2
+        },
+        "tendencies": [
+          "可能更在意：先让他解释为什么喜欢",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Skepticism",
+        "title": "怀疑主义",
+        "content": "会检查设定中哪些前提未经证明，以及每个选项有多强的理由。暂缓判断也可能是一种负责任的回应。但怀疑不等于拒绝所有证据；在实际行动无法暂停时，仍需要说明如何在不确定条件下作出可修正的决定。"
+      },
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "wittgenstein",
+      "hume"
+    ],
+    "schoolIds": [
+      "Skepticism",
+      "Empiricism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q39",
+    "title": "十年前的愿望",
+    "scenario": "您终于能实现十年前的梦想，但现在已经不喜欢它了。您会继续吗？",
+    "category": "身份",
+    "difficulty": 1,
+    "background": "与过去自己的连续不要求欲望永远不变。真实性可能需要重新审视目标，责任也可能要求考虑改变对他人的影响。",
+    "sourceType": "原创情境",
+    "source": "原创情境：时间中的自我",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q39_0",
+        "text": "放下，今天的我也有选择权",
+        "order": 0,
+        "weights": {
+          "Existentialism": 2,
+          "Deontology": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：放下，今天的我也有选择权",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q39_1",
+        "text": "继续，我重视与过去的承诺",
+        "order": 1,
+        "weights": {
+          "Existentialism": -1,
+          "Deontology": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：继续，我重视与过去的承诺",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q39_2",
+        "text": "先弄清梦想变了什么",
+        "order": 2,
+        "weights": {
+          "Existentialism": 0,
+          "Deontology": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：先弄清梦想变了什么",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "sartre",
+      "kierkegaard"
+    ],
+    "schoolIds": [
+      "Existentialism",
+      "Deontology",
+      "dao"
+    ]
+  },
+  {
+    "id": "q40",
+    "title": "算法比您更懂您",
+    "scenario": "推荐系统总能猜中您的喜欢，连想尝试什么都替您决定。您会继续完全交给它吗？",
+    "category": "科技",
+    "difficulty": 1,
+    "background": "偏好预测不等于知道什么生活对您最好。自主包括形成和修改偏好的能力，而不只是得到已经喜欢的东西。",
+    "sourceType": "原创情境",
+    "source": "原创情境：技术与自主",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q40_0",
+        "text": "不会，我想保留偶然和探索",
+        "order": 0,
+        "weights": {
+          "Individualism": 2,
+          "Hedonism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：不会，我想保留偶然和探索",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q40_1",
+        "text": "可以，只要我能随时退出",
+        "order": 1,
+        "weights": {
+          "Individualism": -1,
+          "Hedonism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：可以，只要我能随时退出",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q40_2",
+        "text": "只把它当一个参考",
+        "order": 2,
+        "weights": {
+          "Individualism": 0,
+          "Hedonism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：只把它当一个参考",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "mill",
+      "nozick"
+    ],
+    "schoolIds": [
+      "Individualism",
+      "Hedonism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q41",
+    "title": "一张照片够真实吗？",
+    "scenario": "一张经过修饰的照片让您更喜欢自己。您觉得它比未修饰的照片更不真实吗？",
+    "category": "真实",
+    "difficulty": 1,
+    "background": "记录事实与表达感受是不同的真实要求。语境决定哪些修改会误导；不能把所有修饰都等同欺骗，也不能取消事实责任。",
+    "sourceType": "原创情境",
+    "source": "原创情境：表达与事实",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q41_0",
+        "text": "外貌记录上是，但表达可以真实",
+        "order": 0,
+        "weights": {
+          "Empiricism": 2,
+          "Existentialism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：外貌记录上是，但表达可以真实",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q41_1",
+        "text": "不一定，真实也包括我的感受",
+        "order": 1,
+        "weights": {
+          "Empiricism": -1,
+          "Existentialism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：不一定，真实也包括我的感受",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q41_2",
+        "text": "要看照片用在什么场合",
+        "order": 2,
+        "weights": {
+          "Empiricism": 0,
+          "Existentialism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：要看照片用在什么场合",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Empiricism",
+        "title": "经验主义",
+        "content": "会重视观察、经历与可以检验的证据，同时询问我们怎样从有限经验走到结论。过去发生过不代表未来必然如此。这个角度并不要求只信眼前表象，而是让认识接受检验，并在新的信息出现时保留修正判断的空间。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      }
+    ],
+    "philosopherIds": [
+      "wittgenstein"
+    ],
+    "schoolIds": [
+      "Empiricism",
+      "Existentialism",
+      "Deontology"
+    ]
+  },
+  {
+    "id": "q42",
+    "title": "同意以前，先看细则吗？",
+    "scenario": "一个服务很方便，但条款很长。您会把不知道的风险交给平台吗？",
+    "category": "社会",
+    "difficulty": 1,
+    "background": "形式上的同意未必等于充分知情。自主选择需要理解条件；复杂制度也承担解释和保护用户的责任。",
+    "sourceType": "原创情境",
+    "source": "原创情境：知情同意与制度责任",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q42_0",
+        "text": "先了解关键条款",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Individualism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：先了解关键条款",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q42_1",
+        "text": "相信平台，之后再调整",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Individualism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：相信平台，之后再调整",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q42_2",
+        "text": "不用，直到规则更清楚",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Individualism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：不用，直到规则更清楚",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "kant",
+      "rawls"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Individualism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q43",
+    "title": "为什么要努力？",
+    "scenario": "您已经能满足生活需要，别人仍然劝您不停进步。您会怎么理解努力？",
+    "category": "人生意义",
+    "difficulty": 1,
+    "background": "自我发展、共同责任与摆脱单一尺度并不完全排斥。尼采的自我超越和庄子的逍遥不能简单合并，但都能让既有标准成为问题。",
+    "sourceType": "原创情境",
+    "source": "原创情境：自我发展与生活尺度",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q43_0",
+        "text": "为了自己选择的方向",
+        "order": 0,
+        "weights": {
+          "Existentialism": 2,
+          "Collectivism": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：为了自己选择的方向",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q43_1",
+        "text": "为了照顾重要的关系",
+        "order": 1,
+        "weights": {
+          "Existentialism": -1,
+          "Collectivism": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：为了照顾重要的关系",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q43_2",
+        "text": "不必总以进步衡量生活",
+        "order": 2,
+        "weights": {
+          "Existentialism": 0,
+          "Collectivism": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：不必总以进步衡量生活",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "nietzsche",
+      "zhuangzi",
+      "confucius"
+    ],
+    "schoolIds": [
+      "Existentialism",
+      "dao",
+      "ru"
+    ]
+  },
+  {
+    "id": "q44",
+    "title": "运气好，也算功劳吗？",
+    "scenario": "两人同样努力，一人因运气取得成功，另一人失败。您觉得成功者更值得奖励吗？",
+    "category": "正义",
+    "difficulty": 1,
+    "background": "道德运气与分配正义提醒我们区分结果、努力和机会。承认运气并不抹掉行动，但可能改变制度怎样分配奖励。",
+    "sourceType": "原创情境",
+    "source": "原创情境：道德运气与正义",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q44_0",
+        "text": "可以奖励结果，但承认运气",
+        "order": 0,
+        "weights": {
+          "Utilitarianism": 2,
+          "Deontology": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：可以奖励结果，但承认运气",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q44_1",
+        "text": "更应按努力和条件评价",
+        "order": 1,
+        "weights": {
+          "Utilitarianism": -1,
+          "Deontology": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：更应按努力和条件评价",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q44_2",
+        "text": "奖励应服务于未来的公平",
+        "order": 2,
+        "weights": {
+          "Utilitarianism": 0,
+          "Deontology": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：奖励应服务于未来的公平",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Utilitarianism",
+        "title": "功利主义",
+        "content": "会考察每种行动怎样影响所有相关者的福祉，而不只计算自己的感受。伤害的大小、持续时间和不确定性都需要进入判断。不同版本对规则的重视也不一样；仅凭眼前看起来人数更多，未必就能推出应该选哪一边。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "rawls",
+      "hume"
+    ],
+    "schoolIds": [
+      "Utilitarianism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q45",
+    "title": "想法能被拥有吗？",
+    "scenario": "朋友提出一个点子，您把它做成了作品。成果应如何署名？",
+    "category": "社会",
+    "difficulty": 1,
+    "background": "创意、劳动和承认涉及不同权利。把思想交流当成关系实践，可能让我们重视明确贡献，而不是只争谁先想到。",
+    "sourceType": "原创情境",
+    "source": "原创情境：劳动、创意与承认",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q45_0",
+        "text": "共同署名，说明贡献",
+        "order": 0,
+        "weights": {
+          "Collectivism": 2,
+          "Deontology": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：共同署名，说明贡献",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q45_1",
+        "text": "按具体贡献协商",
+        "order": 1,
+        "weights": {
+          "Collectivism": -1,
+          "Deontology": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：按具体贡献协商",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q45_2",
+        "text": "实现者可以主导，但注明来源",
+        "order": 2,
+        "weights": {
+          "Collectivism": 0,
+          "Deontology": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：实现者可以主导，但注明来源",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "nozick",
+      "confucius"
+    ],
+    "schoolIds": [
+      "Individualism",
+      "Deontology",
+      "ru"
+    ]
+  },
+  {
+    "id": "q46",
+    "title": "如果能读心",
+    "scenario": "您能知道亲近之人的每一个念头，但他们无法隐藏任何想法。您想拥有这个能力吗？",
+    "category": "伦理",
+    "difficulty": 1,
+    "background": "理解不等于拥有对方的全部内心。尊重自主和隐私，也可能是建立信任的条件；念头并不必然等于行动或稳定意愿。",
+    "sourceType": "原创情境",
+    "source": "原创情境：隐私与亲密",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q46_0",
+        "text": "不想，保留心里的空间",
+        "order": 0,
+        "weights": {
+          "Deontology": 2,
+          "Individualism": -1,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：不想，保留心里的空间",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q46_1",
+        "text": "想，但必须经过对方同意",
+        "order": 1,
+        "weights": {
+          "Deontology": -1,
+          "Individualism": 2,
+          "Collectivism": 1
+        },
+        "tendencies": [
+          "可能更在意：想，但必须经过对方同意",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q46_2",
+        "text": "想，理解对方对我很重要",
+        "order": 2,
+        "weights": {
+          "Deontology": 0,
+          "Individualism": 1,
+          "Collectivism": 2
+        },
+        "tendencies": [
+          "可能更在意：想，理解对方对我很重要",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Deontology",
+        "title": "义务论",
+        "content": "会追问行动原则能否获得辩护，以及相关的人是否被当作有自主与尊严的主体。好结果可能很重要，却不自动使任何手段正当。义务也可能冲突，因此需要说明边界和适用条件；不能把现成规定直接当成不需解释的道德答案。"
+      },
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "kant",
+      "mill"
+    ],
+    "schoolIds": [
+      "Deontology",
+      "Individualism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q47",
+    "title": "一场梦的快乐",
+    "scenario": "昨晚您梦到了一段美好经历，醒来后仍然快乐。假的经历，也能带来真实价值吗？",
+    "category": "真实",
+    "difficulty": 1,
+    "background": "体验的发生和体验指向的对象真实与否，是不同问题。庄周梦蝶讨论视角和转化，不等于宣布一切都没有真假区别。",
+    "sourceType": "原创情境",
+    "source": "原创情境：《庄子·齐物论》；体验机器讨论",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q47_0",
+        "text": "能，快乐确实发生了",
+        "order": 0,
+        "weights": {
+          "Hedonism": 2,
+          "Existentialism": -1,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：能，快乐确实发生了",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q47_1",
+        "text": "能，但不能替代真实关系",
+        "order": 1,
+        "weights": {
+          "Hedonism": -1,
+          "Existentialism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意：能，但不能替代真实关系",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q47_2",
+        "text": "价值有限，我更在意现实行动",
+        "order": 2,
+        "weights": {
+          "Hedonism": 0,
+          "Existentialism": 1,
+          "Skepticism": 2
+        },
+        "tendencies": [
+          "可能更在意：价值有限，我更在意现实行动",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "会把注意力放到您如何承担这次选择。没有一个标签能替您活过具体处境；选择也不是脱离他人和限制的任性。这个角度更想追问：您是否在把判断交给别人的期待，还是愿意为自己的理由负责？它不自动指定某个选项。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "zhuangzi",
+      "nozick"
+    ],
+    "schoolIds": [
+      "Hedonism",
+      "Existentialism",
+      "dao"
+    ]
+  },
+  {
+    "id": "q48",
+    "title": "输掉后，还愿意玩？",
+    "scenario": "一个游戏非常有趣，但您几乎每次都输。您还愿意继续玩吗？",
+    "category": "幸福",
+    "difficulty": 1,
+    "background": "活动的内在价值可以不同于外部胜负。德性伦理重视能力的实践，享乐主义可追问快乐的质量，庄子则提醒我们检视固定尺度。",
+    "sourceType": "原创情境",
+    "source": "原创情境：游戏、实践与目的",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q48_0",
+        "text": "愿意，过程就值得",
+        "order": 0,
+        "weights": {
+          "Hedonism": 2,
+          "VirtueEthics": -1,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：愿意，过程就值得",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q48_1",
+        "text": "练习后再回来",
+        "order": 1,
+        "weights": {
+          "Hedonism": -1,
+          "VirtueEthics": 2,
+          "Individualism": 1
+        },
+        "tendencies": [
+          "可能更在意：练习后再回来",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q48_2",
+        "text": "换一个更能让我发挥的游戏",
+        "order": 2,
+        "weights": {
+          "Hedonism": 0,
+          "VirtueEthics": 1,
+          "Individualism": 2
+        },
+        "tendencies": [
+          "可能更在意：换一个更能让我发挥的游戏",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "VirtueEthics",
+        "title": "德性伦理学",
+        "content": "会问这个选择如何塑造您想成为的人，并考察一个有实践智慧的人怎样回应处境。勇敢、节制和关怀都需要分寸。它不只是选一条规则，也不把一次行动变成人的永久定义；长期习惯与具体理由需要一起考虑。"
+      },
+      {
+        "schoolId": "dao",
+        "title": "道家思想",
+        "content": "从道家语境看，可以检视问题是否预先塞进了唯一的尺度，以及过度控制带来的代价。老子的无为与庄子的视角转换并不相同。它们可能让您为变化和不同生活方式留空间，但不能简单解释成什么都不做或任何判断都一样。"
+      }
+    ],
+    "philosopherIds": [
+      "aristotle",
+      "epicurus",
+      "zhuangzi"
+    ],
+    "schoolIds": [
+      "Hedonism",
+      "VirtueEthics",
+      "dao"
+    ]
+  },
+  {
+    "id": "q49",
+    "title": "喜欢独处，是欠缺吗？",
+    "scenario": "周末您更喜欢一个人看云，朋友觉得您应该多社交。您会怎么想？",
+    "category": "幸福",
+    "difficulty": 1,
+    "background": "人的关系性不等于所有人都需要相同社交量。自主与照顾关系可以同时成立；这是生活价值问题，不是对心理健康的诊断。",
+    "sourceType": "原创情境",
+    "source": "原创情境：独处与关系",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q49_0",
+        "text": "独处也是一种好的生活",
+        "order": 0,
+        "weights": {
+          "Individualism": 2,
+          "Collectivism": -1,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：独处也是一种好的生活",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q49_1",
+        "text": "我会检视是否忽略关系",
+        "order": 1,
+        "weights": {
+          "Individualism": -1,
+          "Collectivism": 2,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：我会检视是否忽略关系",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q49_2",
+        "text": "两种需要可以平衡",
+        "order": 2,
+        "weights": {
+          "Individualism": 0,
+          "Collectivism": 1,
+          "Hedonism": 2
+        },
+        "tendencies": [
+          "可能更在意：两种需要可以平衡",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "ru",
+        "title": "儒家思想",
+        "content": "从儒家语境看，可以追问这个选择如何体现对具体关系中的人的关怀，以及责任与分寸。孔子的仁与礼、孟子的恻隐之心提供不同入口。关系不是要求无条件服从；修养也包含反省现成习惯，思考怎样让行动更有担当。"
+      }
+    ],
+    "philosopherIds": [
+      "epicurus",
+      "confucius"
+    ],
+    "schoolIds": [
+      "Individualism",
+      "Hedonism",
+      "ru"
+    ]
+  },
+  {
+    "id": "q50",
+    "title": "选择少一点会更好吗？",
+    "scenario": "一家店有一百种饮料，另一家只有三种。您更喜欢哪家？",
+    "category": "自由意志",
+    "difficulty": 1,
+    "background": "选择数量、选择质量与行动能力并不相同。自由可以需要资源和理解；偏爱少选项也不等于拒绝自主。",
+    "sourceType": "原创情境",
+    "source": "原创情境：选择与自主",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q50_0",
+        "text": "一百种，我想自由探索",
+        "order": 0,
+        "weights": {
+          "Individualism": 2,
+          "Stoicism": -1,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：一百种，我想自由探索",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q50_1",
+        "text": "三种，少一点比较轻松",
+        "order": 1,
+        "weights": {
+          "Individualism": -1,
+          "Stoicism": 2,
+          "Hedonism": 1
+        },
+        "tendencies": [
+          "可能更在意：三种，少一点比较轻松",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      },
+      {
+        "id": "q50_2",
+        "text": "看三种是不是我喜欢的",
+        "order": 2,
+        "weights": {
+          "Individualism": 0,
+          "Stoicism": 1,
+          "Hedonism": 2
+        },
+        "tendencies": [
+          "可能更在意：看三种是不是我喜欢的",
+          "倾向先从这个角度理解问题",
+          "这次选择仍可能受到具体处境影响"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Individualism",
+        "title": "个人主义",
+        "content": "会关注个人是否保有决定自身生活的空间，以及他人的要求有没有正当边界。自主不等于独自生活或不顾别人，个人也依赖关系和制度。这个维度可能让您重视退出、知情与异议的权利，但不会替您取消所有共同责任。"
+      },
+      {
+        "schoolId": "Hedonism",
+        "title": "享乐主义",
+        "content": "会认真考虑快乐和免于痛苦的价值，但不必只追逐即时刺激。伊壁鸠鲁式的角度还会关注欲望是否不断扩大、关系是否安稳。这个立场可能支持舒适，也可能因为长期困扰而拒绝眼前的满足，具体理由仍然要看情境。"
+      },
+      {
+        "schoolId": "Stoicism",
+        "title": "斯多葛主义",
+        "content": "会先区分哪些判断和行动由您负责，哪些条件不在控制之内。它重视德性与对他人的责任，而不是把感觉压下去。这个角度可能提醒您：在有限条件中检视理由，选择能够认真承担的行动，同时承认外部结果未必如愿。"
+      }
+    ],
+    "philosopherIds": [
+      "mill",
+      "epicurus"
+    ],
+    "schoolIds": [
+      "Individualism",
+      "Hedonism",
+      "Stoicism"
+    ]
+  },
+  {
+    "id": "q51",
+    "title": "意义必须来自世界本身吗？",
+    "scenario": "假如世界没有给人生设定一个客观目的，您认为自己的生活还能有意义吗？",
+    "category": "存在",
+    "difficulty": 2,
+    "background": "存在虚无主义质疑生命是否具有客观意义；存在主义和荒诞主义则提供不同回应。否认预设目的，不必推出一切行动都等价，更不必取消自己重视的关系与活动。",
+    "sourceType": "原创情境",
+    "source": "尼采《快乐的科学》；萨特《存在主义是一种人道主义》；加缪《西西弗神话》",
+    "createdAt": 0,
+    "options": [
+      {
+        "id": "q51_0",
+        "text": "能，我可以在选择和关系中形成意义",
+        "order": 0,
+        "weights": {
+          "Existentialism": 2,
+          "Nihilism": -1,
+          "Absurdism": 1
+        },
+        "tendencies": [
+          "可能重视自己形成意义的能力",
+          "倾向承担选择带来的责任"
+        ]
+      },
+      {
+        "id": "q51_1",
+        "text": "如果没有客观基础，我很难承认任何意义",
+        "order": 1,
+        "weights": {
+          "Existentialism": -1,
+          "Nihilism": 2,
+          "Skepticism": 1
+        },
+        "tendencies": [
+          "可能更在意意义是否有客观根据",
+          "倾向先检验价值的基础"
+        ]
+      },
+      {
+        "id": "q51_2",
+        "text": "没有终极保证，也可以清醒地继续生活",
+        "order": 2,
+        "weights": {
+          "Absurdism": 2,
+          "Existentialism": 1,
+          "Nihilism": -1
+        },
+        "tendencies": [
+          "可能愿意与不确定共处",
+          "倾向从生活和行动本身回应问题"
+        ]
+      }
+    ],
+    "perspectives": [
+      {
+        "schoolId": "Nihilism",
+        "title": "虚无主义",
+        "content": "存在虚无主义会追问所谓意义是否有客观基础。但虚无主义有不同含义，不能把这一疑问自动解释成对所有关系和行动都漠不关心。尼采对价值危机的诊断，也包含寻找回应的尝试；一次选择并不能证明您属于哪一种立场。"
+      },
+      {
+        "schoolId": "Absurdism",
+        "title": "荒诞主义",
+        "content": "会承认我们渴望清晰答案，世界却未必提供最终保证。加缪式的思路可能鼓励清醒地继续生活和行动，同时为伤害他人设限。没有终极答案不意味着每种做法都一样，也不意味着必须放弃关系、责任和眼前可做的事。"
+      },
+      {
+        "schoolId": "Existentialism",
+        "title": "存在主义",
+        "content": "萨特式的角度可能把没有预设目的看成需要自己承担的处境。意义可以通过行动、承诺与关系形成，而不是等一个外部剧本。但这份自由并不取消限制和对他人的责任，也不保证每种选择都一样好；理由仍需要被认真检验。"
+      }
+    ],
+    "philosopherIds": [
+      "nietzsche",
+      "sartre",
+      "camus"
+    ],
+    "schoolIds": [
+      "Nihilism",
+      "Existentialism",
+      "Absurdism"
+    ]
+  }
+]

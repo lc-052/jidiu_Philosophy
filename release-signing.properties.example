@@ -1,0 +1,5 @@
+# Copy to release-signing.properties. Keep real values outside Git.
+storeFile=.signing/jidiu-philosophy-release.jks
+storePassword=YOUR_STORE_PASSWORD
+keyAlias=jidiu-release
+keyPassword=YOUR_KEY_PASSWORD

@@ -1,0 +1,31 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+.tools/
+*.iml
+captures/
+backend/__pycache__/
+backend/.env
+dist/*.apk
+
+# Local caches, tools, secrets and release artifacts
+.kotlin/
+.signing/
+release-signing.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+**/__pycache__/
+*.pyc
+*.apk
+*.aab
+*.apks
+# Local build/install traces and duplicate screenshot pull
+/docs/*.log
+/docs/current.png
+/docs/screenshots/little-thoughts-screenshots/

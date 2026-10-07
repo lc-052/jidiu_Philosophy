@@ -1,0 +1,186 @@
+[
+  {
+    "id": "Existentialism",
+    "name": "存在主义",
+    "intro": "人在具体处境中，通过选择承担自己的人生。",
+    "coreQuestion": "没有预设的人生剧本，还能怎样生活？",
+    "ideas": "自由、处境、责任与真实性；不同存在主义者对宗教和他人的理解并不相同。",
+    "misconception": "并非随心所欲；选择同时意味着责任。",
+    "philosopherIds": [
+      "sartre",
+      "kierkegaard"
+    ],
+    "source": "萨特《存在主义是一种人道主义》；克尔凯郭尔《恐惧与战栗》"
+  },
+  {
+    "id": "Stoicism",
+    "name": "斯多葛主义",
+    "intro": "分辨可控制的判断与不可控制的外部事件。",
+    "coreQuestion": "遇到无法改变的事，怎样仍然善待自己和他人？",
+    "ideas": "德性是善好生活的核心；检视判断，并履行对他人和共同体的责任。",
+    "misconception": "并非压抑所有情绪，也不是忍受不公而不行动。",
+    "philosopherIds": [
+      "marcus",
+      "epictetus"
+    ],
+    "source": "爱比克泰德《手册》；马可·奥勒留《沉思录》"
+  },
+  {
+    "id": "Utilitarianism",
+    "name": "功利主义",
+    "intro": "评价行动时，重视所有受影响者的福祉。",
+    "coreQuestion": "怎样让整体伤害更少、生活更好？",
+    "ideas": "后果、平等考虑与整体福祉；行动功利主义和规则功利主义可能给出不同答案。",
+    "misconception": "不是只看自己的利益，也不等于多数人可以任意伤害少数人。",
+    "philosopherIds": [
+      "mill"
+    ],
+    "source": "密尔《功利主义》"
+  },
+  {
+    "id": "Deontology",
+    "name": "义务论",
+    "intro": "有些行动原则不能仅由好结果来证明。",
+    "coreQuestion": "哪些事情即使有好结果，也不该做？",
+    "ideas": "义务、可普遍化的准则与人格尊严；康德是重要代表，但义务论不只有康德。",
+    "misconception": "并非机械遵守任何现成规则；规则本身需要辩护。",
+    "philosopherIds": [
+      "kant"
+    ],
+    "source": "康德《道德形而上学奠基》"
+  },
+  {
+    "id": "Hedonism",
+    "name": "享乐主义",
+    "intro": "把快乐或免于痛苦视为善的重要基础。",
+    "coreQuestion": "快乐是什么？什么样的快乐值得追求？",
+    "ideas": "伊壁鸠鲁重视安宁、友谊和节制欲望；快乐论也有不同版本。",
+    "misconception": "不是暴饮暴食或即时刺激；伊壁鸠鲁特别警惕无限欲望。",
+    "philosopherIds": [
+      "epicurus"
+    ],
+    "source": "伊壁鸠鲁《致美诺伊克斯书》"
+  },
+  {
+    "id": "VirtueEthics",
+    "name": "德性伦理学",
+    "intro": "从一个人如何成为更好的人理解伦理。",
+    "coreQuestion": "我想成为怎样的人？",
+    "ideas": "德性、实践智慧与善好生活；习惯和情境判断同样重要。",
+    "misconception": "不是给人贴好人或坏人的永久标签，也不是盲从习俗。",
+    "philosopherIds": [
+      "aristotle"
+    ],
+    "source": "亚里士多德《尼各马可伦理学》"
+  },
+  {
+    "id": "Absurdism",
+    "name": "荒诞主义",
+    "intro": "看见人对意义的渴望与世界沉默之间的张力。",
+    "coreQuestion": "没有最终保证，还能认真生活吗？",
+    "ideas": "加缪强调清醒面对荒诞，以反抗、自由和生活本身回应。",
+    "misconception": "并非自暴自弃；加缪的回应包含继续生活和对他人的限制意识。",
+    "philosopherIds": [
+      "camus"
+    ],
+    "source": "加缪《西西弗神话》；《反抗者》"
+  },
+  {
+    "id": "Nihilism",
+    "name": "虚无主义",
+    "intro": "质疑某些价值、意义或知识是否有客观基础。",
+    "coreQuestion": "如果旧的价值失效，我们靠什么行动？",
+    "ideas": "虚无主义包含道德、存在等不同议题；尼采诊断虚无主义，也试图回应它。",
+    "misconception": "不等于什么都无所谓；尼采不是简单鼓励放弃价值。",
+    "philosopherIds": [
+      "nietzsche"
+    ],
+    "source": "尼采《快乐的科学》；《道德的谱系》"
+  },
+  {
+    "id": "Individualism",
+    "name": "个人主义",
+    "intro": "把个人的自主、权利和独特生活放在重要位置。",
+    "coreQuestion": "个人与共同体冲突时，如何保护自主？",
+    "ideas": "自我决定、权利边界与个人责任；这是多种政治和伦理观点共享的维度。",
+    "misconception": "不等于自私，也不是否认人依赖社会关系。",
+    "philosopherIds": [
+      "nozick",
+      "mill"
+    ],
+    "source": "诺齐克《无政府、国家与乌托邦》；密尔《论自由》"
+  },
+  {
+    "id": "Collectivism",
+    "name": "集体主义",
+    "intro": "重视共同生活、群体责任和协作。",
+    "coreQuestion": "共同利益怎样获得正当的表达？",
+    "ideas": "共同体、相互依赖与公共利益；必须同时讨论群体内部的异议和权力。",
+    "misconception": "不是个人可以被无条件牺牲；这是一种讨论维度，并非单一哲学学派。",
+    "philosopherIds": [],
+    "source": "思想维度：关于个人与共同体的编辑性概括"
+  },
+  {
+    "id": "Rationalism",
+    "name": "理性主义",
+    "intro": "理性可能提供超越感官经验的认识根据。",
+    "coreQuestion": "有哪些知识不只靠观察得到？",
+    "ideas": "先天知识、演绎与理性结构；笛卡尔的方法怀疑服务于寻求可靠基础。",
+    "misconception": "不等于自称理性，也不意味着经验毫无价值。",
+    "philosopherIds": [
+      "descartes"
+    ],
+    "source": "笛卡尔《第一哲学沉思集》"
+  },
+  {
+    "id": "Empiricism",
+    "name": "经验主义",
+    "intro": "经验在认识形成中具有基础作用。",
+    "coreQuestion": "我们的观念从哪里来？",
+    "ideas": "观察、经验与归纳；休谟提醒，经验习惯不能自动提供逻辑必然性。",
+    "misconception": "不是见过一次就相信，也不意味着只能做实验才有知识。",
+    "philosopherIds": [
+      "hume"
+    ],
+    "source": "休谟《人类理解研究》"
+  },
+  {
+    "id": "Skepticism",
+    "name": "怀疑主义",
+    "intro": "检验知识宣称的根据，并允许暂缓判断。",
+    "coreQuestion": "怎样知道自己真的知道？",
+    "ideas": "证据、可错性和判断限度；怀疑可以是一种方法，也可以是更强的立场。",
+    "misconception": "不是一概否认所有事情，更不是相信任何阴谋。",
+    "philosopherIds": [
+      "hume",
+      "descartes"
+    ],
+    "source": "休谟《人类理解研究》；笛卡尔《第一哲学沉思集》"
+  },
+  {
+    "id": "dao",
+    "name": "道家思想",
+    "intro": "在道、自然、变化与人的尺度之间思考生活。",
+    "coreQuestion": "不被单一标准困住，可以怎样生活？",
+    "ideas": "老子讨论无为与不争；庄子探索视角、变化与逍遥。两者有各自的问题和文本传统。",
+    "misconception": "不等于西方虚无主义或懒惰；无为并非永远什么都不做。",
+    "philosopherIds": [
+      "laozi",
+      "zhuangzi"
+    ],
+    "source": "《道德经》；《庄子》"
+  },
+  {
+    "id": "ru",
+    "name": "儒家思想",
+    "intro": "在关系、礼、仁与修养中思考共同生活。",
+    "coreQuestion": "怎样在具体关系中成为有担当的人？",
+    "ideas": "孔子重视仁与礼；孟子讨论恻隐之心、义与人的发展条件。儒家内部也存在分歧。",
+    "misconception": "不等于无条件服从权威，也不能直接等同于西方集体主义。",
+    "philosopherIds": [
+      "confucius",
+      "mencius"
+    ],
+    "source": "《论语》；《孟子》"
+  }
+]

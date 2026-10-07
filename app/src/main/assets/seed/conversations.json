@@ -1,0 +1,166 @@
+[
+  {
+    "topic": "人为什么一定要努力？",
+    "messages": [
+      {
+        "id": "effort-1",
+        "philosopherId": "nietzsche",
+        "displayName": "尼采",
+        "type": "argument",
+        "content": "思想推演：我会先追问，努力的尺度是谁给您的。若只是重复别人的成功标准，忙碌未必意味着自我超越。创造值得自己承担的目标，也需要检视那些看似天然的评价。"
+      },
+      {
+        "id": "effort-2",
+        "philosopherId": "camus",
+        "displayName": "加缪",
+        "type": "reply",
+        "responseTo": "effort-1",
+        "content": "思想推演：即使目标没有终极保证，行动仍然可以有价值。我更关心您能否清醒地面对生活，而不是等待一个意义证明。反抗困境也需要限度，不能因为追求目标就合理化伤害别人。"
+      },
+      {
+        "id": "effort-3",
+        "philosopherId": "zhuangzi",
+        "displayName": "庄子",
+        "type": "reply",
+        "responseTo": "effort-1",
+        "content": "思想推演：先看看努力是不是被一种单一的有用标准框住了。不同生命有不同的尺度，未必都该被安排在同一场竞赛里。为变化留空间，并不等于什么责任都不承担。"
+      },
+      {
+        "id": "effort-4",
+        "philosopherId": "kant",
+        "displayName": "康德",
+        "type": "reply",
+        "responseTo": "effort-3",
+        "content": "思想推演：我赞成检视目标，但愿望之外仍有需要认真承担的义务。发展能力可以成为责任的一部分；同时，人的尊严不由效率或工资来决定，谁都不应该仅仅成为绩效的工具。"
+      }
+    ],
+    "summary": {
+      "disagreement": [
+        {
+          "text": "努力应围绕自己创造的目标、生命的不同尺度，还是需要承担的义务？",
+          "messageIds": [
+            "effort-1",
+            "effort-3",
+            "effort-4"
+          ]
+        }
+      ],
+      "commonGround": [
+        {
+          "text": "单一的外部评价不足以决定一个人的价值。",
+          "messageIds": [
+            "effort-1",
+            "effort-3",
+            "effort-4"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "topic": "对陌生人，我们欠多少帮助？",
+    "messages": [
+      {
+        "id": "help-1",
+        "philosopherId": "mencius",
+        "displayName": "孟子",
+        "type": "argument",
+        "content": "思想推演：看到他人面临危险时产生的恻隐，是理解道德的重要起点。但这份萌芽需要培养，不能只停在偶尔的感动；让人能够善待他人的生活条件也需要关注。"
+      },
+      {
+        "id": "help-2",
+        "philosopherId": "mill",
+        "displayName": "约翰·斯图亚特·密尔",
+        "type": "reply",
+        "responseTo": "help-1",
+        "content": "思想推演：帮助的实际效果也要进入考虑。同样的资源可以减少多少痛苦？我们不能只因为某个人更近、更容易让自己感动，就完全忽略远处的人；持续有效的制度也很重要。"
+      },
+      {
+        "id": "help-3",
+        "philosopherId": "confucius",
+        "displayName": "孔子",
+        "type": "reply",
+        "responseTo": "help-2",
+        "content": "思想推演：关怀要在具体关系里被练习，而不是只有抽象数量。推己及人的修养可以扩展照顾，但行动仍需要分寸；自己的承诺、能力和他人的真实需要，都值得认真了解。"
+      },
+      {
+        "id": "help-4",
+        "philosopherId": "kant",
+        "displayName": "康德",
+        "type": "reply",
+        "responseTo": "help-2",
+        "content": "思想推演：助人的义务重要，但帮助者和被帮助者都具有尊严。有效并不能使任何手段正当。尊重对方的自主、诚实说明条件，也是帮助本身的一部分。"
+      }
+    ],
+    "summary": {
+      "disagreement": [
+        {
+          "text": "帮助应优先考虑实际效果，还是具体关系与行动的分寸？",
+          "messageIds": [
+            "help-2",
+            "help-3"
+          ]
+        }
+      ],
+      "commonGround": [
+        {
+          "text": "帮助不能忽视被帮助者的尊严与真实需要。",
+          "messageIds": [
+            "help-3",
+            "help-4"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "topic": "喜欢的东西，一定要有用吗？",
+    "messages": [
+      {
+        "id": "use-1",
+        "philosopherId": "zhuangzi",
+        "displayName": "庄子",
+        "type": "argument",
+        "content": "思想推演：您说的有用，是对谁、对什么目标而言？如果每棵树都只按能否做木材来判断，许多生命的空间就被忽略了。先松动那把尺子，可能比马上证明爱好有用更重要。"
+      },
+      {
+        "id": "use-2",
+        "philosopherId": "aristotle",
+        "displayName": "亚里士多德",
+        "type": "reply",
+        "responseTo": "use-1",
+        "content": "思想推演：有些活动值得为它本身而做，幸福也不是只积累外部奖赏。能力的实践、友谊与有分寸的闲暇都可能属于好生活。不过，是否挤占重要责任仍需要实践智慧来判断。"
+      },
+      {
+        "id": "use-3",
+        "philosopherId": "epicurus",
+        "displayName": "伊壁鸠鲁",
+        "type": "reply",
+        "responseTo": "use-2",
+        "content": "思想推演：一个带来安宁的爱好，不需要因为不能赚钱就被否定。也要看看它是否反而制造无限的焦虑和比较。区分欲望，可能让我们找到更朴素而持续的快乐。"
+      }
+    ],
+    "summary": {
+      "disagreement": [
+        {
+          "text": "爱好的价值应从生命空间、好生活的活动，还是安宁与欲望来理解？",
+          "messageIds": [
+            "use-1",
+            "use-2",
+            "use-3"
+          ]
+        }
+      ],
+      "commonGround": [
+        {
+          "text": "不能只用赚钱与外部奖赏衡量爱好。",
+          "messageIds": [
+            "use-1",
+            "use-2",
+            "use-3"
+          ]
+        }
+      ]
+    }
+  }
+]

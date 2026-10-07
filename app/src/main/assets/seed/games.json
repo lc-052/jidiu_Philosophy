@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "works": [
+    {
+      "id": "subahibi",
+      "title": "素晴日",
+      "originalTitle": "素晴らしき日々 ～不連続存在～",
+      "aliases": [
+        "美好的每一天",
+        "美好的日子",
+        "Wonderful Everyday",
+        "Subarashiki Hibi",
+        "すばひび"
+      ],
+      "studio": "KeroQ",
+      "year": 2010,
+      "motif": "sky",
+      "summary": "从天空与世界的故事走向语言、认识与幸福。这里以维特根斯坦为主要阅读线索，拆开作品主题与哲学原典之间的联系。",
+      "tags": [
+        "维特根斯坦",
+        "语言",
+        "幸福",
+        "世界"
+      ],
+      "sources": [
+        {
+          "title": "作品官方介绍",
+          "url": "https://www.keroq.co.jp/suba_fhd/",
+          "note": "作品信息；HD 版与原版年份不同。"
+        },
+        {
+          "title": "发行方 Steam 介绍",
+          "url": "https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/",
+          "note": "天空与世界等主题；该页面对应国际发行版，不等于原版全部内容。"
+        },
+        {
+          "title": "作者解说日文转录",
+          "url": "https://amenowoto.blog/blog/2026-02-03/subahibi-archive-translation/",
+          "note": "官方视觉档案中作者解说的第三方转录，含日文；用于核对维特根斯坦关联，不作为游戏台词来源。"
+        }
+      ],
+      "topics": [
+        {
+          "id": "language",
+          "title": "语言，能把世界说清楚吗？",
+          "relation": "作品关联解读",
+          "context": "作者解说明确讨论维特根斯坦。读作品时，可以把人物对世界的描述与《逻辑哲学论》的语言问题并排看；以下不是逐句台词对照。",
+          "explanation": [
+            "早期维特根斯坦关心：命题怎样描画可能的事实。语言的边界与可以有意义地表达什么有关，并非单纯指一个人的词汇量。",
+            "人物能说出一个解释，不代表解释已经得到证实。阅读时可以分开记录看见的事件、人物的判断与尚未确定的部分。"
+          ],
+          "caution": "不要把早期的语言边界直接等同于后期的语言游戏，也不要理解成只要换个词就能改变现实。",
+          "question": "同一件事换一种说法，会改变您的判断，还是只改变表达？",
+          "philosopherIds": [
+            "wittgenstein"
+          ],
+          "questionIds": [
+            "q41"
+          ],
+          "sources": [
+            {
+              "title": "《逻辑哲学论》2.1—4、5.6",
+              "url": "https://www.gutenberg.org/files/5740/5740-pdf.pdf",
+              "note": "哲学原典；说明语言问题，不证明某一剧情的唯一解释。"
+            }
+          ],
+          "entryChoices": [
+            "可能改变判断",
+            "只是换种表达",
+            "还要看具体语境"
+          ]
+        },
+        {
+          "id": "happiness",
+          "title": "幸福，不只是开心的次数",
+          "relation": "官方主题 + 作品关联解读",
+          "context": "《樱之诗》官方介绍将《素晴日》的幸福主题作为创作起点。借《逻辑哲学论》6.43，可以进一步讨论事实与我们面对世界的方式。",
+          "explanation": [
+            "6.43 区分改变世界中的事实与改变世界的界限。这里的幸福不能简单当作快乐总量，而涉及如何面对整个生活。",
+            "把这种思路用于作品，是一种阅读解释。它可以引出一个问题：生活不顺利时，除了改变条件，我们还能怎样生活？"
+          ],
+          "caution": "这不意味着痛苦都是心态问题，也不意味着遭遇伤害的人应独自承担改变的责任。",
+          "question": "如果处境暂时不能改变，您希望先改变什么？",
+          "spoiler": true,
+          "philosopherIds": [
+            "wittgenstein"
+          ],
+          "questionIds": [
+            "q15",
+            "q23"
+          ],
+          "sources": [
+            {
+              "title": "《樱之诗》官方主题说明",
+              "url": "https://www.makura-soft.com/sakuranouta/story/story.html",
+              "note": "确认两部作品的幸福主题联系。"
+            },
+            {
+              "title": "《逻辑哲学论》6.43",
+              "url": "https://www.gutenberg.org/files/5740/5740-pdf.pdf",
+              "note": "幸福与世界界限的哲学原典。"
+            }
+          ],
+          "entryChoices": [
+            "先改变自己的期待",
+            "先改变现实处境",
+            "两边都值得试试"
+          ]
+        },
+        {
+          "id": "silence",
+          "title": "说不出来，就不重要吗？",
+          "relation": "作品关联解读",
+          "context": "作品与维特根斯坦的关联让我们回到《逻辑哲学论》关于表达限度的讨论。本条触及全作的主题阅读方向，不揭示具体人物身份或结局。",
+          "explanation": [
+            "《逻辑哲学论》6.41—6.522 区分可描述的事实与价值、生的意义；不能像事实命题一样说清的内容，不等于毫无意义。",
+            "因此，故事中的陪伴、选择或日常体验，可以作为理解主题的线索。它们不必都被压缩成一句能证明的答案。"
+          ],
+          "caution": "不能表达不等于可以随意神秘化。解释仍须接受文本与论证的检查。",
+          "question": "有没有一种很重要的体验，您一直找不到准确的说法？",
+          "spoiler": true,
+          "philosopherIds": [
+            "wittgenstein"
+          ],
+          "questionIds": [
+            "q51"
+          ],
+          "sources": [
+            {
+              "title": "《逻辑哲学论》6.41—6.54、7",
+              "url": "https://www.gutenberg.org/files/5740/5740-pdf.pdf",
+              "note": "说与显示、价值与事实；此处均为概括。"
+            }
+          ],
+          "entryChoices": [
+            "有，体验比语言更丰富",
+            "也许只是还没找到说法",
+            "暂时不确定"
+          ]
+        },
+        {
+          "id": "perspective",
+          "title": "看见不同的世界，谁更可靠？",
+          "relation": "延伸对照",
+          "context": "发行方将天空与世界列为作品概念。我们据此延伸讨论认识的可靠性，而不是宣称故事证明了某一种哲学立场。",
+          "explanation": [
+            "面对不同描述，怀疑主义提醒我们检查依据：是亲眼看到、推断，还是听说？笛卡尔的怀疑是一种寻求可靠起点的方法，并非要求永远拒绝相信。",
+            "不同视角可以揭示遗漏的信息，也可能制造新的误判。理解一个人的视角，与接受他的全部结论，是两件事。"
+          ],
+          "caution": "叙事中的主观视角不是临床诊断，也不能直接证明现实不存在。",
+          "question": "两个人描述同一件事完全不同，您会先追问什么？",
+          "philosopherIds": [
+            "descartes"
+          ],
+          "questionIds": [
+            "q06"
+          ],
+          "sources": [
+            {
+              "title": "发行方作品概念说明",
+              "url": "https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/",
+              "note": "作品主题依据。"
+            },
+            {
+              "title": "笛卡尔《第一哲学沉思集》",
+              "url": "https://www.gutenberg.org/ebooks/23306",
+              "note": "怀疑方法的延伸原典，不是游戏中引文的断言。"
+            }
+          ],
+          "entryChoices": [
+            "先核对事实",
+            "先理解各自的视角",
+            "两件事一起做"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sakura",
+      "title": "樱之诗",
+      "originalTitle": "サクラノ詩 -櫻の森の上を舞う-",
+      "aliases": [
+        "櫻之詩",
+        "Sakura no Uta",
+        "サクラノ詩"
+      ],
+      "studio": "枕 / Makura",
+      "year": 2015,
+      "motif": "sakura",
+      "summary": "把幸福的追问带回创作与日常。围绕艺术、美、才能和生活展开阅读，并用美学与伦理学作为对照，而不是把角色当作某个流派的代言人。",
+      "tags": [
+        "美学",
+        "幸福",
+        "艺术",
+        "日常"
+      ],
+      "sources": [
+        {
+          "title": "作品官方主题说明",
+          "url": "https://www.makura-soft.com/sakuranouta/story/story.html",
+          "note": "明确承接幸福主题，并描述其日常与反哲学的创作方向。"
+        },
+        {
+          "title": "作品官方信息",
+          "url": "https://www.makura-soft.com/sakuranouta/information/information.html",
+          "note": "作品名称、制作人员与发行信息。"
+        }
+      ],
+      "topics": [
+        {
+          "id": "everyday",
+          "title": "幸福之后，还是日常",
+          "relation": "官方主题 + 作品关联解读",
+          "context": "官方介绍将《樱之诗》放在《素晴日》之后的主题位置，并强调日常。这是思想主题的关联，不等于两部作品具有连续剧情。",
+          "explanation": [
+            "一种阅读方式是：当幸福不再只是抽象问题，它会进入吃饭、工作、陪伴和创作等具体活动。结论如何落到生活里，比背下一句话更难。",
+            "可以用亚里士多德关于幸福是一种活动的讨论作对照：好的生活与持续实践有关。但这只是比较视角，不代表作品等同于德性伦理学。"
+          ],
+          "caution": "日常不等于没有困难；也不能把平凡生活或伟大成就规定成所有人的唯一幸福。",
+          "question": "让一天值得过的，是完成大事，还是一些普通时刻？",
+          "philosopherIds": [
+            "aristotle"
+          ],
+          "questionIds": [
+            "q36",
+            "q37"
+          ],
+          "sources": [
+            {
+              "title": "官方故事主题",
+              "url": "https://www.makura-soft.com/sakuranouta/story/story.html",
+              "note": "日常与幸福的作品依据。"
+            },
+            {
+              "title": "《尼各马可伦理学》卷一",
+              "url": "https://www.gutenberg.org/files/8438/8438-h/8438-h.htm",
+              "note": "幸福与活动的延伸对照，不是作中台词。"
+            }
+          ],
+          "entryChoices": [
+            "做成值得追求的大事",
+            "认真过好普通时刻",
+            "两者都重要"
+          ]
+        },
+        {
+          "id": "beauty",
+          "title": "我觉得美，能要求您也觉得吗？",
+          "relation": "美学延伸对照",
+          "context": "艺术是理解本作的主要入口之一。下面借康德的审美问题，讨论创作与观看中的分歧；不把这一对照说成角色明确主张康德哲学。",
+          "explanation": [
+            "康德将审美判断与知识判断、个人偏好作区分。判断某物美时，人们常希望别人也赞同，却不能像证明一道算式那样强迫别人同意。",
+            "把这个问题带回艺术故事，便可以追问：艺术的评价来自观看经验、作品技巧，还是共同讨论？意见分歧并不自动意味着一方不懂艺术。"
+          ],
+          "caution": "不要把康德简化成美完全客观，或美只是随便喜欢；本条也不证明游戏中的任何角色就是康德式人物。",
+          "question": "朋友不喜欢您最爱的作品，您更想解释，还是保留差异？",
+          "philosopherIds": [
+            "kant"
+          ],
+          "questionIds": [
+            "q38"
+          ],
+          "sources": [
+            {
+              "title": "康德美学：审美判断与普遍性",
+              "url": "https://plato.stanford.edu/entries/kant-aesthetics/",
+              "note": "学术解说；用于美学对照，未当作游戏引文。"
+            }
+          ],
+          "entryChoices": [
+            "希望朋友也认同",
+            "更想理解彼此差异",
+            "两种愿望都有"
+          ]
+        },
+        {
+          "id": "art-life",
+          "title": "艺术必须对生活有用吗？",
+          "relation": "美学延伸对照",
+          "context": "从作品的创作主题，可以延伸到艺术价值与生活用途的关系。这里使用王尔德的艺术观作比较，不声称以下论述是游戏原话。",
+          "explanation": [
+            "王尔德在《道林·格雷的画像》序言中挑战把艺术直接当作道德教材的习惯。艺术是否值得，不必只由它教会了什么或带来了多少收益决定。",
+            "但艺术作品与现实中的创作者行为仍须区分。欣赏艺术的独立价值，不能自动免除一个人对他人的责任。"
+          ],
+          "caution": "艺术不必有用不等于艺术毫无价值，也不等于创作可以正当化伤害。",
+          "question": "如果一件喜欢的事毫无实用收益，您还愿意投入吗？",
+          "questionIds": [
+            "q36",
+            "q34"
+          ],
+          "sources": [
+            {
+              "title": "王尔德《道林·格雷的画像》序言",
+              "url": "https://www.gutenberg.org/files/174/174-h/174-h.htm",
+              "note": "艺术与道德的原典对照；不是游戏逐句引用。"
+            }
+          ],
+          "entryChoices": [
+            "更愿意投入创作",
+            "更愿意回到生活",
+            "想为两者留位置"
+          ]
+        },
+        {
+          "id": "ladder",
+          "title": "为什么还要走下哲学的梯子？",
+          "relation": "官方意象 + 作品关联解读",
+          "context": "官方介绍使用梯子之后的风景与反哲学的说法。以下将这一意象与《逻辑哲学论》6.54 对照，是编辑性解读，不宣称作者只有这一种意思。",
+          "explanation": [
+            "6.54 将书中的命题比作帮助读者越过自身的梯子。这引出一种张力：哲学能帮我们看清问题，但不能永远替我们生活。",
+            "用这个视角看《樱之诗》的日常主题，可以理解为让思考回到行动与关系。反哲学也未必是反对认真思考，而可能是反对把生活全部变成解释。"
+          ],
+          "caution": "作品不是《逻辑哲学论》的故事版；文学意象与哲学论证不能逐项等同。",
+          "question": "什么时候，您会暂时停止分析，先去做一件事？",
+          "spoiler": true,
+          "philosopherIds": [
+            "wittgenstein"
+          ],
+          "questionIds": [
+            "q19",
+            "q43"
+          ],
+          "sources": [
+            {
+              "title": "官方主题中的梯子意象",
+              "url": "https://www.makura-soft.com/sakuranouta/story/story.html",
+              "note": "作品意象依据。"
+            },
+            {
+              "title": "《逻辑哲学论》6.54",
+              "url": "https://www.gutenberg.org/files/5740/5740-pdf.pdf",
+              "note": "梯子比喻的原典，对照关系是编辑解读。"
+            }
+          ],
+          "entryChoices": [
+            "想清楚再行动",
+            "先行动再理解",
+            "边做边想"
+          ]
+        }
+      ]
+    }
+  ]
+}
