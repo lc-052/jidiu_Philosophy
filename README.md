@@ -22,6 +22,10 @@
 | --- | --- |
 | ![音乐列表](docs/screenshots/bgm-playlist.png) | ![深色音乐页面](docs/screenshots/bgm-dark.png) |
 
+| TIPS 词语卡片 | 我的词语理解 |
+| --- | --- |
+| ![词语卡片](docs/screenshots/tips-list.png) | ![个人理解](docs/screenshots/tips-understanding.png) |
+
 截图来自 Android 模拟器。圆桌中的演示内容和社区人数均明确标为展示数据。
 
 ## 可以做些什么
@@ -30,6 +34,7 @@
 - **留下当时的自己**：保存回答与 Reflection；再次思考同一问题时，对照过去的选择和留言。支持历史、收藏、连续思考记录和思想快照。
 - **看看脑回路**：13 个维度的思想 Bubble，根据选择权重、每题可能得分范围和回答数量生成倾向观察。样本少时明确提示画像模糊，支持回看变化。
 - **随便逛逛**：本地搜索问题、22 位哲学家和 15 个流派／思想维度。包含独立语境的儒家与道家、著作、常见误解，以及时间线与思想分歧。
+- **TIPS · 哲学词语**：30 个词语卡片，收录形而上学、决定论、自由意志等。详情提供开放问题、书目、人物和关联内容，不写标准释义；最后可保存自己的理解，支持搜索、筛选、修改和草稿恢复。
 - **游戏中的哲学**：为《素晴日》《樱之诗》分别提供作品入口和八篇主题笔记。先回答不剧透的问题，再展开解读；剧透默认折叠，作品事实与编辑延伸分开标注。
 - **圆桌会议**：最多邀请四位思想家，用抽象头像呈现群聊。用户可设置昵称与头像，定向回应、请求概念解释或生活举例，生成带来源的小结，保存会后念头与讨论。
 - **读哲学，也听音乐**：多选导入本地音频，最多 50 首、每首 100 MB。支持曲目列表、上一首／下一首、列表循环／单曲循环／顺序播放、进度和音量。阅读页面底栏可直接控制。
@@ -37,7 +42,9 @@
 
 ## 安装
 
-要求 **Android 8.0 / API 26 或更高**。从 [Releases](https://github.com/lc-052/jidiu_Philosophy/releases) 下载 `LittleThoughts-1.0.7-release.apk`，按系统提示允许安装。校验文件随安装包提供。
+要求 **Android 8.0 / API 26 或更高**。从 [Releases](https://github.com/lc-052/jidiu_Philosophy/releases) 下载 `LittleThoughts-1.0.8-release.apk`，按系统提示允许安装。校验文件随安装包提供。
+
+1.0.8 沿用 1.0.7 的正式签名，可直接覆盖升级正式版；已在模拟器验证旧回答与引导状态保留。
 
 这是使用独立正式签名的 Release 包。此前本地交付的 Debug 包使用不同签名，Android 无法直接覆盖安装；卸载旧包会删除其本地回答、讨论、音乐副本和 Key。当前没有数据导出／迁移功能，如需保留旧数据，请先继续使用旧包。之后使用同一正式签名的版本可以正常升级。
 
@@ -80,7 +87,7 @@ python backend/server.py
 - JDK **17**、Android SDK Platform **35**。
 - Android Studio 需支持 AGP **8.6.0**（Ladybug 或更高的兼容版本）；以项目 Gradle 配置为准。
 - Gradle Wrapper **8.7**、Kotlin **2.0.21**；无需另装全局 Gradle。
-- 包名：`com.xiaojidiu.philosophy`；当前版本 **1.0.7 / versionCode 8**。
+- 包名：`com.xiaojidiu.philosophy`；当前版本 **1.0.8 / versionCode 9**。
 
 在 Android Studio 中打开仓库根目录，配置 SDK 后同步并运行 `app`。首次构建需要访问 Google Maven 和 Maven Central。
 
@@ -140,9 +147,11 @@ gradle/wrapper/                # 可重现构建入口
 
 ### 本地数据与内容
 
-Room schema **2** 保存问题与选项、维度权重、回答、Reflection、哲学家、流派、关联、收藏、思想快照、会话、消息、讨论小结及会后念头；包含外键、索引及 1→2 迁移。每道问题最新回答用于画像，历次回答保留供回看。
+Room schema **3** 保存问题与选项、维度权重、回答、Reflection、哲学家、流派、关联、收藏、思想快照、会话、消息、讨论小结、会后念头及 TIPS 个人理解；包含外键、索引及 1→2→3 迁移。每道问题最新回答用于画像，历次回答保留供回看。
 
 首次启动在 IO 线程把 `assets/seed/` 内容导入 Room，DataStore 记录 Seed Version。内容升级保留历史记录，问题与选项 ID 应保持含义稳定。游戏笔记从 assets 读取，本次直觉选择只恢复页面状态，不写入永久画像。
+
+TIPS 词语目录独立放在 `assets/seed/tips.json`，个人理解通过 Room 保存，不参与画像或模型请求。
 
 DataStore 保存引导、主题、提醒、用户形象、接口配置与音乐列表。音乐复制到 App 私有目录，原文件不变，不扫描整个媒体库，不上传音频。切歌保留曲目；移除副本前确认。前台导航、旋转使用同一个播放器；离开 App 暂停，重新启动不会自动播放。
 
@@ -155,7 +164,7 @@ DataStore 保存引导、主题、提醒、用户形象、接口配置与音乐�
 python -m unittest discover -s backend -v
 ```
 
-当前验证：Debug / Release 各 **51 项 JVM 测试**、**25 项 Android 测试**通过；Android 测试环境为 Pixel 8 / Android 16 / API 36 模拟器。覆盖重复回答、标准化画像、Reflection、收藏、Seed、数据库迁移、真实 HTTP 模拟模型、用户配置、圆桌小结、作品导航、320dp / 180% 字体布局，以及音乐导入、播放、循环、切歌和旧记录升级。
+当前验证：Debug / Release 各 **54 项 JVM 测试**、**32 项 Android 测试**通过；Android 测试环境为 Pixel 8 / Android 16 / API 36 模拟器。覆盖重复回答、标准化画像、Reflection、收藏、Seed、数据库迁移、真实 HTTP 模拟模型、用户配置、圆桌小结、作品导航、320dp / 180% 字体布局，以及音乐导入、播放、循环、切歌、旧记录升级和 TIPS 草稿、笔记、关联导航及数据迁移。
 
 音频测试模拟系统选择器返回结果，随后真实复制、解析、解码和播放。测试提供器不进入生产 APK。服务端另有 14 项 Python 测试通过。更完整的结果与边界见 [验证记录](docs/VALIDATION.md)。
 
@@ -177,5 +186,5 @@ Release 签名与维护者备份位置见 [签名说明](docs/RELEASE_SIGNING.md
 
 ## 进一步了解
 
-[游戏哲学内容与出处](docs/GAME_PHILOSOPHY.md) · [圆桌与小结协议](docs/MEETING_EXPERIENCE.md) · [阅读排版](docs/READING_LAYOUT.md) · [BGM 与配色](docs/BGM_AND_PALETTE.md) · [手机 AI 配置](docs/AI_CLIENT.md)
+[TIPS 词语与笔记](docs/TIPS.md) · [游戏哲学内容与出处](docs/GAME_PHILOSOPHY.md) · [圆桌与小结协议](docs/MEETING_EXPERIENCE.md) · [阅读排版](docs/READING_LAYOUT.md) · [BGM 与配色](docs/BGM_AND_PALETTE.md) · [手机 AI 配置](docs/AI_CLIENT.md)
 

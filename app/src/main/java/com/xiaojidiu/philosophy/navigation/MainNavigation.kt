@@ -25,6 +25,7 @@ import com.xiaojidiu.philosophy.ui.debate.*
 import com.xiaojidiu.philosophy.ui.settings.*
 import com.xiaojidiu.philosophy.ui.games.*
 import com.xiaojidiu.philosophy.ui.music.*
+import com.xiaojidiu.philosophy.ui.tips.*
 import androidx.compose.ui.platform.LocalDensity
 
 @Composable fun MainNavigation(vm: AppViewModel) {
@@ -39,7 +40,15 @@ import androidx.compose.ui.platform.LocalDensity
     Scaffold(bottomBar = { Column {if(entry?.destination?.route!="bgm" && WindowInsets.ime.getBottom(LocalDensity.current)==0) BgmMiniBar(vm.graph.bgm) {nav.navigate("bgm") {launchSingleTop=true}};if(entry?.destination?.route in mainRoutes) XjdBottomBar(entry?.destination?.route,::tab)} }) { padding ->
         NavHost(nav, startDestination = "home", modifier = Modifier.padding(padding).consumeWindowInsets(padding)) {
             composable("home") { HomeScreen(vm,library) { id,choice -> nav.navigate("question/$id${if(choice==null) "" else "?choice=$choice"}") } }
-            composable("explore") { ExploreScreen(library,{nav.navigate("question/$it")},{nav.navigate("philosopher/$it")},{nav.navigate("school/$it")},{nav.navigate("map")},{nav.navigate("games")}) }
+            composable("explore") { ExploreScreen(library,{nav.navigate("question/$it")},{nav.navigate("philosopher/$it")},{nav.navigate("school/$it")},{nav.navigate("map")},{nav.navigate("games")},{nav.navigate("tips")}) }
+            composable("tips") {
+                val tvm: TipsListViewModel=viewModel(factory=viewModelFactory {initializer {TipsListViewModel(vm.graph.tips,createSavedStateHandle())}})
+                TipsListScreen(tvm,{nav.popBackStack()},{nav.navigate("tips/$it")})
+            }
+            composable("tips/{id}") {
+                val tvm: TipDetailViewModel=viewModel(factory=viewModelFactory {initializer {TipDetailViewModel(vm.graph.tips,createSavedStateHandle())}})
+                TipDetailScreen(tvm,library,{nav.popBackStack()},{nav.navigate("question/$it")},{nav.navigate("philosopher/$it")},{nav.navigate("school/$it")},{nav.navigate("tips/$it")})
+            }
             composable("games") {GameWorksScreen(games,{nav.popBackStack()},{nav.navigate("game/$it")})}
             composable("game/{id}") {e->GameWorkDetailScreen(games.find {it.id==e.arguments?.getString("id")},library,{nav.popBackStack()},{nav.navigate("philosopher/$it")},{nav.navigate("question/$it")})}
             composable("debate") {

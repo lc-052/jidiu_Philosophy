@@ -29,3 +29,6 @@ release-signing.properties
 /docs/*.log
 /docs/current.png
 /docs/screenshots/little-thoughts-screenshots/
+
+# Versioned APK delivery folders and generated checksums
+/dist/

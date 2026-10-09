@@ -1,0 +1,1022 @@
+{
+  "version": 1,
+  "terms": [
+    {
+      "id": "metaphysics",
+      "name": "形而上学",
+      "english": "Metaphysics",
+      "aliases": [],
+      "category": "存在与世界",
+      "questions": [
+        "世界只有能被测量的东西吗？",
+        "一件事物的存在，是否依赖有人知道它？"
+      ],
+      "readings": [
+        {
+          "author": "亚里士多德",
+          "work": "《形而上学》",
+          "question": "阅读时留意：我们问一件东西是什么，和问它为什么存在，是否在问同一件事？"
+        }
+      ],
+      "questionIds": [
+        "q03",
+        "q06"
+      ],
+      "philosopherIds": [
+        "aristotle",
+        "kant"
+      ],
+      "schoolIds": [
+        "Rationalism"
+      ],
+      "relatedTermIds": [
+        "ontology",
+        "epistemology"
+      ]
+    },
+    {
+      "id": "ontology",
+      "name": "本体论",
+      "english": "Ontology",
+      "aliases": [
+        "存在论"
+      ],
+      "category": "存在与世界",
+      "questions": [
+        "一艘船换掉全部木板，原来的船还存在吗？",
+        "梦境、数字角色和石头，能用同一种方式谈论存在吗？"
+      ],
+      "readings": [
+        {
+          "author": "亚里士多德",
+          "work": "《形而上学》",
+          "question": "阅读时留意：事物、属性与关系，在存在问题中各占什么位置？"
+        }
+      ],
+      "questionIds": [
+        "q03",
+        "q11"
+      ],
+      "philosopherIds": [
+        "aristotle",
+        "sartre"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "metaphysics",
+        "personal-identity"
+      ]
+    },
+    {
+      "id": "epistemology",
+      "name": "认识论",
+      "english": "Epistemology",
+      "aliases": [
+        "知识论"
+      ],
+      "category": "认识与知识",
+      "questions": [
+        "确信一件事，与知道一件事有什么距离？",
+        "一个真实的结论如果只是猜对了，能算知识吗？"
+      ],
+      "readings": [
+        {
+          "author": "柏拉图",
+          "work": "《泰阿泰德篇》",
+          "question": "阅读时留意：意见、理由和知识之间的问题如何被追问？"
+        }
+      ],
+      "questionIds": [
+        "q04",
+        "q06",
+        "q27"
+      ],
+      "philosopherIds": [
+        "plato",
+        "descartes",
+        "hume"
+      ],
+      "schoolIds": [
+        "Skepticism"
+      ],
+      "relatedTermIds": [
+        "skepticism",
+        "rationalism",
+        "empiricism"
+      ]
+    },
+    {
+      "id": "determinism",
+      "name": "决定论",
+      "english": "Determinism",
+      "aliases": [
+        "因果决定论"
+      ],
+      "category": "自由与行动",
+      "questions": [
+        "如果我的选择也有前因，我还需要为它负责吗？",
+        "努力本身，能否成为改变结果的原因？"
+      ],
+      "readings": [
+        {
+          "author": "休谟",
+          "work": "《人类理解研究》第八节",
+          "question": "阅读时留意：行动有原因时，自由和责任的问题是否随之结束？"
+        }
+      ],
+      "questionIds": [
+        "q20",
+        "q31",
+        "q40"
+      ],
+      "philosopherIds": [
+        "hume",
+        "kant"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "free-will",
+        "compatibilism",
+        "causation"
+      ]
+    },
+    {
+      "id": "free-will",
+      "name": "自由意志",
+      "english": "Free will",
+      "aliases": [
+        "意志自由"
+      ],
+      "category": "自由与行动",
+      "questions": [
+        "同样的过去再来一次，我能选择不同的路吗？",
+        "我想做的事，是否就一定是我自由选择的事？"
+      ],
+      "readings": [
+        {
+          "author": "康德",
+          "work": "《道德形而上学奠基》第三章",
+          "question": "阅读时留意：作出道德判断时，我们如何看待行动者的自由？"
+        }
+      ],
+      "questionIds": [
+        "q20",
+        "q40",
+        "q50"
+      ],
+      "philosopherIds": [
+        "kant",
+        "sartre",
+        "hume"
+      ],
+      "schoolIds": [
+        "Existentialism"
+      ],
+      "relatedTermIds": [
+        "determinism",
+        "compatibilism",
+        "authenticity"
+      ]
+    },
+    {
+      "id": "compatibilism",
+      "name": "相容论",
+      "english": "Compatibilism",
+      "aliases": [
+        "兼容论"
+      ],
+      "category": "自由与行动",
+      "questions": [
+        "一个有原因的选择，是否仍可能是我的自由选择？",
+        "没有被人强迫，与本来就能选择别的行为，哪一个更重要？"
+      ],
+      "readings": [
+        {
+          "author": "休谟",
+          "work": "《人类理解研究》第八节",
+          "question": "阅读时留意：意愿、外在阻碍与行动之间有哪些问题？"
+        }
+      ],
+      "questionIds": [
+        "q20",
+        "q40"
+      ],
+      "philosopherIds": [
+        "hume"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "free-will",
+        "determinism"
+      ]
+    },
+    {
+      "id": "causation",
+      "name": "因果性",
+      "english": "Causation",
+      "aliases": [
+        "因果关系"
+      ],
+      "category": "存在与世界",
+      "questions": [
+        "看到两件事总是一起发生，足够证明一件导致另一件吗？",
+        "我把结果归功于自己时，忽略了哪些原因？"
+      ],
+      "readings": [
+        {
+          "author": "休谟",
+          "work": "《人类理解研究》第四至七节",
+          "question": "阅读时留意：从过去的重复经验到未来的判断，中间跨过了什么？"
+        }
+      ],
+      "questionIds": [
+        "q37",
+        "q40",
+        "q41"
+      ],
+      "philosopherIds": [
+        "hume"
+      ],
+      "schoolIds": [
+        "Empiricism"
+      ],
+      "relatedTermIds": [
+        "determinism",
+        "empiricism"
+      ]
+    },
+    {
+      "id": "skepticism",
+      "name": "怀疑主义",
+      "english": "Skepticism",
+      "aliases": [
+        "怀疑论"
+      ],
+      "category": "认识与知识",
+      "questions": [
+        "我需要怀疑到什么程度，才愿意相信眼前的世界？",
+        "保持怀疑，会帮助行动还是让行动停下来？"
+      ],
+      "readings": [
+        {
+          "author": "笛卡尔",
+          "work": "《第一哲学沉思集》第一沉思",
+          "question": "阅读时留意：感官、梦与判断的可靠性如何成为问题？"
+        }
+      ],
+      "questionIds": [
+        "q04",
+        "q06",
+        "q41"
+      ],
+      "philosopherIds": [
+        "descartes",
+        "hume"
+      ],
+      "schoolIds": [
+        "Skepticism"
+      ],
+      "relatedTermIds": [
+        "epistemology",
+        "other-minds"
+      ]
+    },
+    {
+      "id": "rationalism",
+      "name": "理性主义",
+      "english": "Rationalism",
+      "aliases": [
+        "唯理论"
+      ],
+      "category": "认识与知识",
+      "questions": [
+        "不依靠观察，我能知道什么？",
+        "一个推论很严密，是否足以证明它谈论的世界真实存在？"
+      ],
+      "readings": [
+        {
+          "author": "笛卡尔",
+          "work": "《谈谈方法》",
+          "question": "阅读时留意：怀疑、推理与寻找确定性的步骤如何展开？"
+        }
+      ],
+      "questionIds": [
+        "q06",
+        "q27"
+      ],
+      "philosopherIds": [
+        "descartes",
+        "kant"
+      ],
+      "schoolIds": [
+        "Rationalism"
+      ],
+      "relatedTermIds": [
+        "empiricism",
+        "a-priori"
+      ]
+    },
+    {
+      "id": "empiricism",
+      "name": "经验主义",
+      "english": "Empiricism",
+      "aliases": [
+        "经验论"
+      ],
+      "category": "认识与知识",
+      "questions": [
+        "我从未经历过的事，能否被我真正理解？",
+        "过去总是如此，就足够相信明天也如此吗？"
+      ],
+      "readings": [
+        {
+          "author": "休谟",
+          "work": "《人类理解研究》",
+          "question": "阅读时留意：观察、经验与日常信念之间有什么问题？"
+        }
+      ],
+      "questionIds": [
+        "q33",
+        "q37",
+        "q41"
+      ],
+      "philosopherIds": [
+        "hume"
+      ],
+      "schoolIds": [
+        "Empiricism"
+      ],
+      "relatedTermIds": [
+        "rationalism",
+        "causation",
+        "epistemology"
+      ]
+    },
+    {
+      "id": "a-priori",
+      "name": "先天知识",
+      "english": "A priori knowledge",
+      "aliases": [
+        "先天认识"
+      ],
+      "category": "认识与知识",
+      "questions": [
+        "有些判断是否不需要等到经验来验证？",
+        "知道一件事的理由，与第一次学到它的过程，是一回事吗？"
+      ],
+      "readings": [
+        {
+          "author": "康德",
+          "work": "《纯粹理性批判》导言",
+          "question": "阅读时留意：判断的根据与经验之间怎样发生关联？"
+        }
+      ],
+      "questionIds": [
+        "q27",
+        "q41"
+      ],
+      "philosopherIds": [
+        "kant"
+      ],
+      "schoolIds": [
+        "Rationalism"
+      ],
+      "relatedTermIds": [
+        "rationalism",
+        "empiricism",
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "phenomenon",
+      "name": "现象",
+      "english": "Phenomenon",
+      "aliases": [],
+      "category": "认识与知识",
+      "questions": [
+        "我看见的世界，与别人看见的世界一定相同吗？",
+        "改变观察方式之后，谈论的还是同一个对象吗？"
+      ],
+      "readings": [
+        {
+          "author": "康德",
+          "work": "《纯粹理性批判》",
+          "question": "阅读时留意：感受、认识方式与对象之间怎样发生关联？"
+        }
+      ],
+      "questionIds": [
+        "q04",
+        "q41"
+      ],
+      "philosopherIds": [
+        "kant"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "thing-in-itself",
+        "epistemology"
+      ]
+    },
+    {
+      "id": "thing-in-itself",
+      "name": "物自体",
+      "english": "Thing-in-itself",
+      "aliases": [],
+      "category": "存在与世界",
+      "questions": [
+        "撇开人的观察方式，我们还能怎样谈论世界？",
+        "不知道一件事物的全部，是否意味着它不存在？"
+      ],
+      "readings": [
+        {
+          "author": "康德",
+          "work": "《纯粹理性批判》",
+          "question": "阅读时留意：认识的边界，和我们谈论对象的方式如何相遇？"
+        }
+      ],
+      "questionIds": [
+        "q06",
+        "q41"
+      ],
+      "philosopherIds": [
+        "kant"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "phenomenon",
+        "metaphysics"
+      ]
+    },
+    {
+      "id": "dualism",
+      "name": "二元论",
+      "english": "Dualism",
+      "aliases": [
+        "心身二元论"
+      ],
+      "category": "心灵与自我",
+      "questions": [
+        "描述大脑的一切，是否已经描述了一个人的全部感受？",
+        "身体改变之后，我的心灵还是原来的心灵吗？"
+      ],
+      "readings": [
+        {
+          "author": "笛卡尔",
+          "work": "《第一哲学沉思集》第六沉思",
+          "question": "阅读时留意：心灵、身体与二者关联的问题如何展开？"
+        }
+      ],
+      "questionIds": [
+        "q05",
+        "q21",
+        "q30"
+      ],
+      "philosopherIds": [
+        "descartes"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "consciousness",
+        "personal-identity"
+      ]
+    },
+    {
+      "id": "consciousness",
+      "name": "意识",
+      "english": "Consciousness",
+      "aliases": [],
+      "category": "心灵与自我",
+      "questions": [
+        "把所有反应模拟得一样，就等于拥有相同的感受吗？",
+        "一种只属于自己的体验，可以被完整传达给别人吗？"
+      ],
+      "readings": [
+        {
+          "author": "笛卡尔",
+          "work": "《第一哲学沉思集》第二沉思",
+          "question": "阅读时留意：当我确认自己正在思考时，我确认了什么？"
+        }
+      ],
+      "questionIds": [
+        "q05",
+        "q21",
+        "q33"
+      ],
+      "philosopherIds": [
+        "descartes",
+        "wittgenstein"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "other-minds",
+        "dualism"
+      ]
+    },
+    {
+      "id": "other-minds",
+      "name": "他心问题",
+      "english": "Other minds",
+      "aliases": [
+        "他者心灵问题"
+      ],
+      "category": "心灵与自我",
+      "questions": [
+        "我凭什么相信别人真的感到了痛，而不只是做出反应？",
+        "把同一种行为换成机器来做，我的判断为何会改变？"
+      ],
+      "readings": [
+        {
+          "author": "维特根斯坦",
+          "work": "《哲学研究》",
+          "question": "阅读时留意：私人的感受与公共的表达，如何让理解发生？"
+        }
+      ],
+      "questionIds": [
+        "q05",
+        "q21",
+        "q33"
+      ],
+      "philosopherIds": [
+        "wittgenstein"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "consciousness",
+        "language-game"
+      ]
+    },
+    {
+      "id": "personal-identity",
+      "name": "人格同一性",
+      "english": "Personal identity",
+      "aliases": [
+        "个人同一性"
+      ],
+      "category": "心灵与自我",
+      "questions": [
+        "记忆被替换之后，我还是我吗？",
+        "两位拥有相同记忆的人，谁能接续我原来的生活？"
+      ],
+      "readings": [
+        {
+          "author": "约翰·洛克",
+          "work": "《人类理解论》第二卷第二十七章",
+          "question": "阅读时留意：人、身体、记忆与同一个人的判断如何相遇？"
+        }
+      ],
+      "questionIds": [
+        "q10",
+        "q11",
+        "q12",
+        "q30"
+      ],
+      "philosopherIds": [
+        "descartes"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "ontology",
+        "consciousness"
+      ]
+    },
+    {
+      "id": "utilitarianism",
+      "name": "功利主义",
+      "english": "Utilitarianism",
+      "aliases": [
+        "效益主义"
+      ],
+      "category": "伦理与社会",
+      "questions": [
+        "让更多人获益，能否成为伤害一个人的理由？",
+        "一次决定的影响，应该算到多远的未来？"
+      ],
+      "readings": [
+        {
+          "author": "约翰·斯图亚特·密尔",
+          "work": "《功利主义》",
+          "question": "阅读时留意：不同人的幸福，如何进入同一次行动判断？"
+        }
+      ],
+      "questionIds": [
+        "q01",
+        "q18",
+        "q29"
+      ],
+      "philosopherIds": [
+        "mill"
+      ],
+      "schoolIds": [
+        "Utilitarianism"
+      ],
+      "relatedTermIds": [
+        "deontology",
+        "justice"
+      ]
+    },
+    {
+      "id": "deontology",
+      "name": "义务论",
+      "english": "Deontology",
+      "aliases": [
+        "道义论"
+      ],
+      "category": "伦理与社会",
+      "questions": [
+        "有些事是否即使带来好结果，也不应该去做？",
+        "我希望别人遵守的原则，自己是否也愿意遵守？"
+      ],
+      "readings": [
+        {
+          "author": "康德",
+          "work": "《道德形而上学奠基》",
+          "question": "阅读时留意：动机、原则与对他人的尊重如何进入判断？"
+        }
+      ],
+      "questionIds": [
+        "q09",
+        "q17",
+        "q28"
+      ],
+      "philosopherIds": [
+        "kant"
+      ],
+      "schoolIds": [
+        "Deontology"
+      ],
+      "relatedTermIds": [
+        "utilitarianism",
+        "virtue"
+      ]
+    },
+    {
+      "id": "virtue",
+      "name": "德性",
+      "english": "Virtue",
+      "aliases": [
+        "美德"
+      ],
+      "category": "伦理与社会",
+      "questions": [
+        "做对一件事，与成为一个值得信任的人有什么差别？",
+        "习惯怎样慢慢改变我面对困难时的选择？"
+      ],
+      "readings": [
+        {
+          "author": "亚里士多德",
+          "work": "《尼各马可伦理学》",
+          "question": "阅读时留意：选择、习惯和好的生活之间有哪些问题？"
+        }
+      ],
+      "questionIds": [
+        "q24",
+        "q28",
+        "q35"
+      ],
+      "philosopherIds": [
+        "aristotle",
+        "confucius"
+      ],
+      "schoolIds": [
+        "VirtueEthics"
+      ],
+      "relatedTermIds": [
+        "deontology",
+        "ren"
+      ]
+    },
+    {
+      "id": "justice",
+      "name": "正义",
+      "english": "Justice",
+      "aliases": [],
+      "category": "伦理与社会",
+      "questions": [
+        "不知道自己将处在什么位置时，我愿意接受怎样的规则？",
+        "同样对待每个人，是否一定公平？"
+      ],
+      "readings": [
+        {
+          "author": "约翰·罗尔斯",
+          "work": "《正义论》",
+          "question": "阅读时留意：制度、机会与处境最不利者的利益如何被考虑？"
+        }
+      ],
+      "questionIds": [
+        "q07",
+        "q18",
+        "q42"
+      ],
+      "philosopherIds": [
+        "rawls",
+        "nozick"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "utilitarianism",
+        "ren"
+      ]
+    },
+    {
+      "id": "absurd",
+      "name": "荒诞",
+      "english": "The absurd",
+      "aliases": [],
+      "category": "意义与生活",
+      "questions": [
+        "我不断寻找意义时，世界是否一定会给我回应？",
+        "没有最终答案，我还愿意认真投入生活吗？"
+      ],
+      "readings": [
+        {
+          "author": "阿尔贝·加缪",
+          "work": "《西西弗神话》",
+          "question": "阅读时留意：对意义的渴望与世界的沉默，如何成为继续生活的问题？"
+        }
+      ],
+      "questionIds": [
+        "q19",
+        "q43",
+        "q44"
+      ],
+      "philosopherIds": [
+        "camus"
+      ],
+      "schoolIds": [
+        "Absurdism"
+      ],
+      "relatedTermIds": [
+        "nihilism",
+        "authenticity"
+      ]
+    },
+    {
+      "id": "nihilism",
+      "name": "虚无主义",
+      "english": "Nihilism",
+      "aliases": [],
+      "category": "意义与生活",
+      "questions": [
+        "如果熟悉的价值失去说服力，我还能以什么作出选择？",
+        "怀疑已有意义之后，是否仍可能创造新的价值？"
+      ],
+      "readings": [
+        {
+          "author": "弗里德里希·尼采",
+          "work": "《快乐的科学》",
+          "question": "阅读时留意：旧有价值受到质疑时，新的价值是否已经出现？"
+        }
+      ],
+      "questionIds": [
+        "q14",
+        "q19",
+        "q26"
+      ],
+      "philosopherIds": [
+        "nietzsche"
+      ],
+      "schoolIds": [
+        "Nihilism"
+      ],
+      "relatedTermIds": [
+        "absurd",
+        "authenticity",
+        "perspectivism"
+      ]
+    },
+    {
+      "id": "authenticity",
+      "name": "本真性",
+      "english": "Authenticity",
+      "aliases": [
+        "本真"
+      ],
+      "category": "意义与生活",
+      "questions": [
+        "我的选择是我愿意承担的，还是只是跟着期待走？",
+        "承认自己的限制，是否妨碍活出自己的生活？"
+      ],
+      "readings": [
+        {
+          "author": "让-保罗·萨特",
+          "work": "《存在与虚无》",
+          "question": "阅读时留意：自我逃避、选择与责任如何成为问题？"
+        }
+      ],
+      "questionIds": [
+        "q39",
+        "q43",
+        "q50"
+      ],
+      "philosopherIds": [
+        "sartre",
+        "kierkegaard"
+      ],
+      "schoolIds": [
+        "Existentialism"
+      ],
+      "relatedTermIds": [
+        "free-will",
+        "absurd"
+      ]
+    },
+    {
+      "id": "language-game",
+      "name": "语言游戏",
+      "english": "Language-game",
+      "aliases": [],
+      "category": "语言与理解",
+      "questions": [
+        "同一个词换个场合，为什么会有不同的作用？",
+        "我是在描述事实、提出请求，还是表达态度？"
+      ],
+      "readings": [
+        {
+          "author": "维特根斯坦",
+          "work": "《哲学研究》",
+          "question": "阅读时留意：词语在具体生活和实践中怎样被使用？"
+        }
+      ],
+      "questionIds": [
+        "q05",
+        "q45"
+      ],
+      "philosopherIds": [
+        "wittgenstein"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "other-minds",
+        "epistemology"
+      ]
+    },
+    {
+      "id": "dao",
+      "name": "道",
+      "english": "Dao",
+      "aliases": [],
+      "category": "中国哲学",
+      "questions": [
+        "给事物取一个名字之后，我是否更容易理解它，也更容易忽略它？",
+        "一种生活方式，能否被固定成永远适用的规则？"
+      ],
+      "readings": [
+        {
+          "author": "老子",
+          "work": "《道德经》",
+          "question": "阅读时留意：语言、变化与人的行动在书中如何相遇？"
+        }
+      ],
+      "questionIds": [
+        "q19",
+        "q37"
+      ],
+      "philosopherIds": [
+        "laozi",
+        "zhuangzi"
+      ],
+      "schoolIds": [
+        "dao"
+      ],
+      "relatedTermIds": [
+        "wuwei",
+        "ren"
+      ]
+    },
+    {
+      "id": "wuwei",
+      "name": "无为",
+      "english": "Wuwei",
+      "aliases": [],
+      "category": "中国哲学",
+      "questions": [
+        "我介入一件事，是帮助它发展，还是把自己的安排强加给它？",
+        "不强行控制，与完全不行动，有什么区别？"
+      ],
+      "readings": [
+        {
+          "author": "老子",
+          "work": "《道德经》",
+          "question": "阅读时留意：治理、行动和过度干预之间有哪些问题？"
+        }
+      ],
+      "questionIds": [
+        "q22",
+        "q37",
+        "q40"
+      ],
+      "philosopherIds": [
+        "laozi",
+        "zhuangzi"
+      ],
+      "schoolIds": [
+        "dao"
+      ],
+      "relatedTermIds": [
+        "dao",
+        "authenticity"
+      ]
+    },
+    {
+      "id": "ren",
+      "name": "仁",
+      "english": "Ren",
+      "aliases": [],
+      "category": "中国哲学",
+      "questions": [
+        "我如何把对身边人的关心，延伸到与我不熟悉的人？",
+        "面对不同关系，我应当如何调整自己的行动？"
+      ],
+      "readings": [
+        {
+          "author": "孔子",
+          "work": "《论语》",
+          "question": "阅读时留意：日常关系、修养与对他人的关切如何相遇？"
+        }
+      ],
+      "questionIds": [
+        "q24",
+        "q29"
+      ],
+      "philosopherIds": [
+        "confucius",
+        "mencius"
+      ],
+      "schoolIds": [
+        "ru"
+      ],
+      "relatedTermIds": [
+        "human-nature",
+        "virtue",
+        "justice"
+      ]
+    },
+    {
+      "id": "human-nature",
+      "name": "人性",
+      "english": "Human nature",
+      "aliases": [],
+      "category": "中国哲学",
+      "questions": [
+        "一个人的好坏，更多来自最初的倾向，还是后来的环境与习惯？",
+        "看到别人受苦时的第一反应，能否成为道德的起点？"
+      ],
+      "readings": [
+        {
+          "author": "孟子",
+          "work": "《孟子》",
+          "question": "阅读时留意：恻隐、成长与修养之间有哪些问题？"
+        }
+      ],
+      "questionIds": [
+        "q24",
+        "q28",
+        "q29"
+      ],
+      "philosopherIds": [
+        "mencius",
+        "confucius"
+      ],
+      "schoolIds": [
+        "ru"
+      ],
+      "relatedTermIds": [
+        "ren",
+        "virtue"
+      ]
+    },
+    {
+      "id": "perspectivism",
+      "name": "视角主义",
+      "english": "Perspectivism",
+      "aliases": [
+        "透视主义"
+      ],
+      "category": "认识与知识",
+      "questions": [
+        "不同处境能否让人看见同一件事的不同部分？",
+        "承认自己的视角有限，是否意味着所有看法都一样可靠？"
+      ],
+      "readings": [
+        {
+          "author": "弗里德里希·尼采",
+          "work": "《道德谱系》第三篇",
+          "question": "阅读时留意：评价、立场与认识的视角怎样发生关联？"
+        }
+      ],
+      "questionIds": [
+        "q27",
+        "q38",
+        "q41"
+      ],
+      "philosopherIds": [
+        "nietzsche"
+      ],
+      "schoolIds": [],
+      "relatedTermIds": [
+        "epistemology",
+        "nihilism"
+      ]
+    }
+  ]
+}

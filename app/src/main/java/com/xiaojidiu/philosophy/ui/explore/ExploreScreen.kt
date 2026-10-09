@@ -52,7 +52,7 @@ import com.xiaojidiu.philosophy.ui.components.*
     }
 }
 
-@Composable fun ExploreScreen(library: Library, question: (String)->Unit, philosopher: (String)->Unit, school: (String)->Unit, map: ()->Unit, games: ()->Unit={}) {
+@Composable fun ExploreScreen(library: Library, question: (String)->Unit, philosopher: (String)->Unit, school: (String)->Unit, map: ()->Unit, games: ()->Unit={}, tips: ()->Unit={}) {
     var query by rememberSaveable { mutableStateOf("") }
     var section by rememberSaveable { mutableIntStateOf(0) }
     var category by rememberSaveable { mutableStateOf("全部") }
@@ -85,6 +85,7 @@ import com.xiaojidiu.philosophy.ui.components.*
         if(section==1 || section==2) item {
             NavigationRow("这些人到底什么关系？","沿着时代与分歧，看看思想的相遇",Icons.Outlined.AccountTree,map)
         }
+        item { NavigationRow("TIPS · 哲学词语","形而上学、自由意志……留一点自己的理解",Icons.Outlined.AutoStories,tips) }
         item { NavigationRow("游戏中的哲学","按作品读：素晴日、樱之诗",Icons.Outlined.SportsEsports,games) }
         item { Text("${if(needle.isEmpty()) "${labels[section]} ·" else "搜索结果 ·"} $count ${if(section==1) "位" else if(section==2) "种" else "个"}",Modifier.padding(top=8.dp),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.onSurfaceVariant) }
         when(section) {

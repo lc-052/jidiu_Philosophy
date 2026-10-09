@@ -21,8 +21,8 @@ android {
         applicationId = "com.xiaojidiu.philosophy"
         minSdk = 26
         targetSdk = 35
-        versionCode = 8
-        versionName = "1.0.7"
+        versionCode = 9
+        versionName = "1.0.8"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         val backend = providers.gradleProperty("AI_API_BASE_URL").orElse("").get()
         require(backend.isEmpty() || (backend.startsWith("https://") && backend.endsWith("/"))) { "AI_API_BASE_URL must be an HTTPS URL ending with /" }

@@ -58,7 +58,7 @@ import androidx.compose.material.icons.outlined.MusicNote
             if(message.isNotEmpty()) item {Text(message,lineHeight=26.sp)}
         }
     }}
-    if(delete!=0) AlertDialog(onDismissRequest={delete=0},title={Text(if(delete==1) "清除回答历史？" else "清除全部本地数据？")},text={Text(if(delete==1) "回答、Reflection 和思想画像轨迹会被永久清除。收藏与讨论会保留。此操作无法撤销。" else "回答、Reflection、收藏、画像轨迹、讨论、导入的音乐副本和设置会被永久清除。内置哲学内容会保留，并重新显示首次引导。此操作无法撤销。")},confirmButton={TextButton(onClick={vm.clear(delete==2);delete=0}) {Text("确认清除")}},dismissButton={TextButton(onClick={delete=0}) {Text("留着吧")}})
+    if(delete!=0) AlertDialog(onDismissRequest={delete=0},title={Text(if(delete==1) "清除回答历史？" else "清除全部本地数据？")},text={Text(if(delete==1) "回答、Reflection 和思想画像轨迹会被永久清除。收藏与讨论会保留。此操作无法撤销。" else "回答、Reflection、收藏、画像轨迹、讨论、TIPS 中的个人理解、导入的音乐副本和设置会被永久清除。内置哲学内容会保留，并重新显示首次引导。此操作无法撤销。")},confirmButton={TextButton(onClick={vm.clear(delete==2);delete=0}) {Text("确认清除")}},dismissButton={TextButton(onClick={delete=0}) {Text("留着吧")}})
 }
 @Composable fun InfoScreen(kind: String,back: ()->Unit) {
     Scaffold(topBar={XjdTopBar(if(kind=="about") "关于小寄丢" else "隐私说明",back)}) {p->LazyColumn(Modifier.padding(p),contentPadding=PaddingValues(22.dp),verticalArrangement=Arrangement.spacedBy(18.dp)) {
@@ -66,7 +66,7 @@ import androidx.compose.material.icons.outlined.MusicNote
             item {XiaojidiuMascot();Text("小寄丢大道理",style=MaterialTheme.typography.headlineLarge);Text("没事想两下，万一想明白了呢。",lineHeight=28.sp)}
             item {XjdCard {Text("我们想让您在选择、记录和回看中发现自己相信什么。这里没有标准答案，思想画像不是科学人格测评。",lineHeight=28.sp);Text("哲学内容均为通俗概括或情境改写，出处见各问题和详情页。圆桌是基于思想的现代推演，不冒充历史人物原话。",lineHeight=28.sp)}}
         } else {
-            item {XjdCard {Text("您的念头留在设备上",style=MaterialTheme.typography.titleLarge);Text("回答、Reflection、收藏、画像与讨论存储在设备本地。没有登录、广告或统计 SDK，Android 系统备份已关闭。清除数据或卸载会失去这些记录。",lineHeight=28.sp)}}
+            item {XjdCard {Text("您的念头留在设备上",style=MaterialTheme.typography.titleLarge);Text("回答、Reflection、收藏、画像、讨论与 TIPS 个人理解存储在设备本地。没有登录、广告或统计 SDK，Android 系统备份已关闭。清除数据或卸载会失去这些记录。",lineHeight=28.sp)}}
             item {XjdCard {Text("圆桌的网络请求",style=MaterialTheme.typography.titleLarge);Text("演示模式完全使用内置内容。手机直连模式把话题、所选哲学家、本场上下文和您填写的 API Key 发送到您配置的模型接口；自有服务模式把讨论数据发送到配置的 Backend。其他回答、Reflection 和思想画像不随请求发送。测试连接会调用一次模型并可能产生费用。",lineHeight=28.sp);Text("API Key 由 Android Keystore 加密后保存在设备上，不写入代码、日志或备份。移除密钥、清除全部本地数据或卸载会失去该密钥。模型服务的日志与保留策略由供应商或部署者决定，请查阅相应隐私政策。",lineHeight=28.sp)}}
             item {XjdCard {Text("背景音乐只在本地",style=MaterialTheme.typography.titleLarge);Text("导入时只读取您在系统选择器中选中的音频，并复制到 App 私有空间。不会扫描整部手机，也不会上传音频。移除时仅删除副本；清除全部数据或卸载会移除副本。",lineHeight=28.sp)}}
             item {Text("每日提醒由 Android 本地后台任务实现，可以完全关闭。",lineHeight=28.sp)}

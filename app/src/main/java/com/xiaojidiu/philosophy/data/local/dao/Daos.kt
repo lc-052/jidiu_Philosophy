@@ -53,3 +53,12 @@ import kotlinx.coroutines.flow.Flow
     @Upsert suspend fun meetingThought(item: MeetingThoughtEntity)
     @Insert suspend fun meetingInsight(item: MeetingInsightEntity)
 }
+
+
+@Dao interface TipUnderstandingDao {
+    @Query("SELECT * FROM TipUnderstandingEntity ORDER BY updatedAt DESC, termId") fun observe(): Flow<List<TipUnderstandingEntity>>
+    @Query("SELECT * FROM TipUnderstandingEntity WHERE termId = :termId") fun observeTerm(termId: String): Flow<TipUnderstandingEntity?>
+    @Upsert suspend fun put(note: TipUnderstandingEntity)
+    @Query("DELETE FROM TipUnderstandingEntity WHERE termId = :termId") suspend fun remove(termId: String)
+    @Query("DELETE FROM TipUnderstandingEntity") suspend fun clear()
+}

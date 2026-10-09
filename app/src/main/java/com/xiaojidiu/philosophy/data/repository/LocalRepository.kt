@@ -73,5 +73,5 @@ class LocalRepository(private val db: ThoughtDatabase) {
         if (enabled) db.journalDao().favorite(FavoriteEntity(type,id,System.currentTimeMillis())) else db.journalDao().unfavorite(type,id)
     }
     suspend fun clearAnswers() { db.withTransaction { db.answerDao().clear(); db.journalDao().clearSnapshots() } }
-    suspend fun clearUserData() { db.withTransaction { db.answerDao().clear(); db.journalDao().clearSnapshots(); db.journalDao().clearFavorites(); db.journalDao().clearConversations() } }
+    suspend fun clearUserData() { db.withTransaction { db.answerDao().clear(); db.journalDao().clearSnapshots(); db.journalDao().clearFavorites(); db.journalDao().clearConversations(); db.tipUnderstandingDao().clear() } }
 }

@@ -27,3 +27,8 @@ data class RoundTableMessageEntity(@PrimaryKey val id: String, val conversationI
 data class MeetingThoughtEntity(@PrimaryKey val conversationId: String, val favoredPhilosopherId: String?, val changedThought: String, val conclusion: String)
 @Entity(foreignKeys = [ForeignKey(entity = RoundTableConversationEntity::class, parentColumns = ["id"], childColumns = ["conversationId"], onDelete = ForeignKey.CASCADE)], indices = [Index("conversationId")])
 data class MeetingInsightEntity(@PrimaryKey val id: String, val conversationId: String, val messageCount: Int, val summaryJson: String, val createdAt: Long)
+
+
+/** Stable asset term IDs keep personal writing independent from editorial text updates. */
+@Entity(indices=[Index("updatedAt")])
+data class TipUnderstandingEntity(@PrimaryKey val termId: String, val content: String, val updatedAt: Long)
